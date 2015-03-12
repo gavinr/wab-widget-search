@@ -46,7 +46,10 @@ define([
 				query: lang.hitch(this, 'queryGrid')
 			}, 'grid');
 
-			this.filterTextBox = new TextBox().placeAt(document.body, 'first');
+			this.filterTextBox = new TextBox({
+				'class': 'filteringTextBox',
+				placeholder:'Search'
+			}).placeAt(document.body, 'first');
 			on(this.filterTextBox, "keyUp", lang.hitch(this, function(name, oldValue, newValue) {
 				this.grid.refresh();
 			}));
