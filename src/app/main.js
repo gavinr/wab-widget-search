@@ -23,9 +23,14 @@ define([
 			this.getData(widgetLocations).then(lang.hitch(this, 'initComponents'));
 		},
 		initComponents: function(data) {
+			data = this.addLinks(data);
 			this.memory = new Memory({
 				data: data
 			});
+
+			var makeLink = function(data) {
+				return "<a target=\"_blank\" href=\"" + data + "\">" + data + "</a>";
+			}
 
 			this.grid = new OnDemandGrid({
 				store: this.memory,
@@ -33,6 +38,10 @@ define([
 					name: 'Name',
 					description: 'Description',
 					author: 'Author',
+					link: {
+						label: "Link",
+						formatter: makeLink
+					}
 				},
 				query: lang.hitch(this, 'queryGrid')
 			}, 'grid');
@@ -44,7 +53,7 @@ define([
 		},
 		getData: function(dataUrls) {
 			var dl = array.map(dataUrls, function(url) {
-				return xhr(url, {
+				return xhr(url.manifestUrl, {
 					handleAs: 'json',
 					preventCache: true,
 					headers: {
@@ -72,6 +81,12 @@ define([
 
 			// if we haven't returned true, we should not show this.
 			return false;
+		},
+		addLinks: function(data) {
+			for (var i = 0; i < data.length; i++) {
+				data[i].link = widgetLocations[i]['url'];
+			}
+			return data;
 		}
 	}
 });
