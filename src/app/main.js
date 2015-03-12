@@ -28,20 +28,33 @@ define([
 				data: data
 			});
 
+			// formatters for grid
 			var makeLink = function(data) {
 				return "<a target=\"_blank\" href=\"" + data + "\">" + data + "</a>";
 			}
+			var makeLicense = function(data) {
+				if(data == 'http://www.apache.org/licenses/LICENSE-2.0') {
+					return '<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0</a>';
+				}
+				return data;
+			}
 
+			// create the grid
 			this.grid = new OnDemandGrid({
 				store: this.memory,
 				columns: {
 					name: 'Name',
 					description: 'Description',
 					author: 'Author',
+					license: {
+						label: "License",
+						formatter: makeLicense
+					},
 					link: {
 						label: "Link",
 						formatter: makeLink
 					}
+
 				},
 				query: lang.hitch(this, 'queryGrid')
 			}, 'grid');
