@@ -15,6 +15,7 @@ define([
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ImageProperties",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/ImageProperties/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ImageSelect",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/ImageSelect/manifest.json"},
 		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Bookmark",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Bookmark/manifest.json"},
-		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/GeoChat",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/GeoChat/manifest.json"}
+		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/GeoChat",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/GeoChat/manifest.json"},
+		{url:"https://github.com/gavinr/wab-wikipedia-search",manifestUrl:"//cdn.rawgit.com/gavinr/wab-wikipedia-search/master/manifest.json"}
 	];
 });
