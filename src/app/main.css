@@ -1,8 +1,21 @@
+html, body {
+	height: 100%;
+	margin: 0;
+
+}
+.dijitBorderContainer .dgrid {
+	height: 100%;
+}
+.title {
+	float: left;
+	line-height: 55px;
+	font-size: 30px;
+}
 .link {
 	text-align: right;
-	margin: 1rem;
 }
 .filteringTextBox {
 	margin: 1rem;
 	font-size: 1rem;
+	float: right;
 }
