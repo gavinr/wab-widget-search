@@ -17,6 +17,10 @@ define([
 		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Bookmark",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Bookmark/manifest.json"},
 		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/GeoChat",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/GeoChat/manifest.json"},
 		{url:"https://github.com/gavinr/wab-wikipedia-search",manifestUrl:"//cdn.rawgit.com/gavinr/wab-wikipedia-search/master/manifest.json"},
-		{url:"https://github.com/timw1984/WebAppBuilder/tree/master/Location",manifestUrl:"//cdn.rawgit.com/timw1984/WebAppBuilder/master/Location/manifest.json"}
+		{url:"https://github.com/timw1984/WebAppBuilder/tree/master/Location",manifestUrl:"//cdn.rawgit.com/timw1984/WebAppBuilder/master/Location/manifest.json"},
+		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-url",manifestUrl:"//cdn.rawgit.com/magis-nc/esri-webappbuilder-widget-url/master/manifest.json"},
+		{url:"https://github.com/cmndrbensisko/LocalLayer",manifestUrl:"//cdn.rawgit.com/cmndrbensisko/LocalLayer/master/manifest.json"},
+		{url:"https://github.com/cmndrbensisko/AccessifizrWidget",manifestUrl:"//cdn.rawgit.com/cmndrbensisko/AccessifizrWidget/master/manifest.json"},
+		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",manifestUrl:"//cdn.rawgit.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json"}
 	];
 });
