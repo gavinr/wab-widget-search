@@ -21,6 +21,7 @@ define([
 		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-url",manifestUrl:"//cdn.rawgit.com/magis-nc/esri-webappbuilder-widget-url/master/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/LocalLayer",manifestUrl:"//cdn.rawgit.com/cmndrbensisko/LocalLayer/master/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/AccessifizrWidget",manifestUrl:"//cdn.rawgit.com/cmndrbensisko/AccessifizrWidget/master/manifest.json"},
-		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",manifestUrl:"//cdn.rawgit.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json"}
+		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",manifestUrl:"//cdn.rawgit.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json"},
+		{url:"https://github.com/mlewis22/WebAppBuilder/tree/master/Google%20Analytics/Widget/GoogleAnalytics",manifestUrl:"//cdn.rawgit.com/mlewis22/WebAppBuilder/master/Google%20Analytics/Widget/GoogleAnalytics/manifest.json"}
 	];
 });
