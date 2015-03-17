@@ -1,5 +1,6 @@
 define([
 	'./widget-locations',
+	'./SimpleQueryEngineNonCase',
 
 	'dgrid/extensions/DijitRegistry',
 	'dgrid/OnDemandGrid',
@@ -17,7 +18,7 @@ define([
 	'dojo/store/Memory',
 	'dojo/domReady!'
 ], function(
-	widgetLocations,
+	widgetLocations, SimpleQueryEngineNonCase,
 	DijitRegistry, OnDemandGrid,
 	TextBox, BorderContainer, ContentPane,
 	array, declare, lang, on, all, xhr, Memory
@@ -61,7 +62,8 @@ define([
 		initComponents: function(data) {
 			data = this.addLinks(data);
 			this.memory = new Memory({
-				data: data
+				data: data,
+				queryEngine: SimpleQueryEngineNonCase
 			});
 
 			// formatters for grid
@@ -93,7 +95,12 @@ define([
 					}
 
 				},
-				query: lang.hitch(this, 'queryGrid')
+				query: lang.hitch(this, 'queryGrid'),
+				queryOptions: {
+					sort: [{
+						attribute: "name"
+					}]
+				}
 			}, "mainDGrid");
 
 			this.filterTextBox = new TextBox({
