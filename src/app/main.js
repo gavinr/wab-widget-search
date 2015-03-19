@@ -60,13 +60,11 @@ define([
 
 			// put the top level widget into the document, and then call startup()
 			this.borderContainer.placeAt(document.body);
-
 		},
 		initComponents: function(data) {
 			data = this.addLinks(data);
 			this.memory = new Memory({
 				data: data,
-				queryEngine: SimpleQueryEngineNonCase
 			});
 			// formatters for grid
 			var makeLink = function(data) {
@@ -98,15 +96,16 @@ define([
 				query: lang.hitch(this, 'queryGrid')
 			}, "mainDGrid");
 			this.grid.set('sort', 'name');
-			
+
 			this.filterTextBox = new TextBox({
 				'class': 'filteringTextBox',
 				placeholder: 'Search'
 			}).placeAt(this.cp1);
 			on(this.filterTextBox, "keyUp", lang.hitch(this, function(name, oldValue, newValue) {
-				this.grid.refresh();
+				this.grid.set('collection', this.memory.filter({
+					name: this.filterTextBox.get("value")
+				}));
 			}));
-
 			this.borderContainer.startup();
 		},
 		getData: function(dataUrls) {
