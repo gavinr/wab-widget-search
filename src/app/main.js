@@ -17,6 +17,7 @@ define([
 	'dojo/request/xhr',
 
 	'dstore/Memory',
+	'dstore/Filter',
 
 	'dojo/domReady!'
 ], function(
@@ -24,7 +25,7 @@ define([
 	DijitRegistry, OnDemandGrid,
 	TextBox, BorderContainer, ContentPane,
 	array, declare, lang, on, all, xhr,
-	Memory
+	Memory, Filter
 ) {
 	return {
 		startup: function() {
@@ -76,7 +77,7 @@ define([
 				}
 				return data;
 			};
-				// create the grid
+			// create the grid
 			var CustomGrid = declare([OnDemandGrid, DijitRegistry]);
 			this.grid = new CustomGrid({
 				collection: this.memory,
@@ -102,9 +103,17 @@ define([
 				placeholder: 'Search'
 			}).placeAt(this.cp1);
 			on(this.filterTextBox, "keyUp", lang.hitch(this, function(name, oldValue, newValue) {
-				this.grid.set('collection', this.memory.filter({
-					name: this.filterTextBox.get("value")
-				}));
+				var searchValue = this.filterTextBox.get("value");
+				if (searchValue !== "") {
+					var filterName = new Filter().match('name', new RegExp(searchValue + "+", "i"));
+					var filterDesc = new Filter().match('description', new RegExp(searchValue + "+", "i"));
+					var filterCombined = new Filter().or(filterName, filterDesc);
+
+					this.grid.set("collection", this.memory.filter(filterCombined));
+				} else {
+					this.grid.set("collection", this.memory);
+				}
+
 			}));
 			this.borderContainer.startup();
 		},
