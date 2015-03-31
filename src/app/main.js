@@ -69,13 +69,13 @@ define([
 			// formatters for grid
 			var makeLink = function(data) {
 				return "<a target=\"_blank\" href=\"" + data + "\">" + data + "</a>";
-			}
+			};
 			var makeLicense = function(data) {
-					if (data == 'http://www.apache.org/licenses/LICENSE-2.0') {
-						return '<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0</a>';
-					}
-					return data;
+				if (data == 'http://www.apache.org/licenses/LICENSE-2.0') {
+					return '<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0</a>';
 				}
+				return data;
+			};
 				// create the grid
 			var CustomGrid = declare([OnDemandGrid, DijitRegistry]);
 			this.grid = new CustomGrid({
@@ -118,7 +118,7 @@ define([
 					},
 				});
 			});
-			return all(dl)
+			return all(dl);
 		},
 		queryGrid: function(item, index, items) {
 			var filterString = this.filterTextBox ? this.filterTextBox.get("value") + "" : "";
@@ -145,5 +145,5 @@ define([
 			}
 			return data;
 		}
-	}
+	};
 });
