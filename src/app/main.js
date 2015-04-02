@@ -1,5 +1,4 @@
 define([
-	'./SimpleQueryEngineNonCase',
 	'./widget-locations',
 
 	'dgrid/extensions/DijitRegistry',
@@ -21,7 +20,7 @@ define([
 
 	'dojo/domReady!'
 ], function(
-	SimpleQueryEngineNonCase, widgetLocations,
+	widgetLocations,
 	DijitRegistry, OnDemandGrid,
 	TextBox, BorderContainer, ContentPane,
 	array, declare, lang, on, all, xhr,
@@ -102,7 +101,7 @@ define([
 				}
 				return data;
 			};
-			// create the grid
+			// create the grid. DijitRegistry makes dgrid play well with the BorderContainer.
 			var CustomGrid = declare([OnDemandGrid, DijitRegistry]);
 			this.grid = new CustomGrid({
 				collection: this.memory,
