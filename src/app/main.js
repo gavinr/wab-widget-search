@@ -16,8 +16,8 @@ define([
 	'dojo/promise/all',
 	'dojo/request/xhr',
 
-	'dstore/Memory',
 	'dstore/Filter',
+	'dstore/Memory',
 
 	'dojo/domReady!'
 ], function(
@@ -25,7 +25,7 @@ define([
 	DijitRegistry, OnDemandGrid,
 	TextBox, BorderContainer, ContentPane,
 	array, declare, lang, on, all, xhr,
-	Memory, Filter
+	Filter, Memory
 ) {
 	return {
 		startup: function() {
@@ -61,6 +61,31 @@ define([
 
 			// put the top level widget into the document, and then call startup()
 			this.borderContainer.placeAt(document.body);
+		},
+		filterGrid: function(grid, memory, searchTerm) {
+			var setToMemory;
+			// if the search is empty, "turn off" filter
+			if (searchTerm === "") {
+				setToMemory = this.memory;
+			} else {
+				var mainFilter;
+				// go though each column, applying the filter for each:
+				for (var key in grid.columns) {
+					if (grid.columns.hasOwnProperty(key)) {
+						var columnName = grid.columns[key].id;
+						var filter = new Filter().match(columnName, new RegExp(searchTerm + "+", "i"));
+						if (mainFilter) {
+							mainFilter = new Filter().or(mainFilter, filter);
+						} else {
+							mainFilter = filter;
+						}
+					}
+				}
+				setToMemory = memory.filter(mainFilter);
+			}
+
+			// set the memory that we've computed above in the if/else
+			grid.set("collection", setToMemory);
 		},
 		initComponents: function(data) {
 			data = this.addLinks(data);
@@ -104,16 +129,7 @@ define([
 			}).placeAt(this.cp1);
 			on(this.filterTextBox, "keyUp", lang.hitch(this, function(name, oldValue, newValue) {
 				var searchValue = this.filterTextBox.get("value");
-				if (searchValue !== "") {
-					var filterName = new Filter().match('name', new RegExp(searchValue + "+", "i"));
-					var filterDesc = new Filter().match('description', new RegExp(searchValue + "+", "i"));
-					var filterCombined = new Filter().or(filterName, filterDesc);
-
-					this.grid.set("collection", this.memory.filter(filterCombined));
-				} else {
-					this.grid.set("collection", this.memory);
-				}
-
+				this.filterGrid(this.grid, this.memory, searchValue);
 			}));
 			this.borderContainer.startup();
 		},
