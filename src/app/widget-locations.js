@@ -4,7 +4,6 @@ define([
 	declare
 ) {
 	return [
-		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/BatchEditor",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/BatchEditor/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/BombThreat",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/BombThreat/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/CI_KR_Chart",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/CI_KR_Chart/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/CostAnalysis/CostAnalysis",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/CostAnalysis/CostAnalysis/manifest.json"},
