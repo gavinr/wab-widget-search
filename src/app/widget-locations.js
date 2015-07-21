@@ -19,7 +19,6 @@ define([
 		{url:"https://github.com/cmndrbensisko/AccessifizrWidget",manifestUrl:"//rawgit.com/cmndrbensisko/AccessifizrWidget/master/manifest.json"},
 		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",manifestUrl:"//rawgit.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json"},
 		{url:"https://github.com/mlewis22/WebAppBuilder/tree/master/Google%20Analytics/Widget/GoogleAnalytics",manifestUrl:"//rawgit.com/mlewis22/WebAppBuilder/master/Google%20Analytics/Widget/GoogleAnalytics/manifest.json"},
-		{url:"https://github.com/voyagersearch/voyager-dojo-widget/tree/master/voyager-web-appbuilder",manifestUrl:"//rawgit.com/voyagersearch/voyager-dojo-widget/master/voyager-web-appbuilder/Voyager/manifest.json"},
 		{url:"https://github.com/LarryStout/AWAB-Print-Plus-Widget/tree/master/PrintPlus",manifestUrl:"//rawgit.com/LarryStout/AWAB-Print-Plus-Widget/master/PrintPlus/manifest.json"}
 
 		// {url:"",manifestUrl:""}, // TODO widgets in https://github.com/ArcGIS/WAB-Image-Services-Widgets/tree/master/imagery_widgets
