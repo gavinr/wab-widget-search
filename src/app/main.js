@@ -105,6 +105,7 @@ define([
 			var CustomGrid = declare([OnDemandGrid, DijitRegistry]);
 			this.grid = new CustomGrid({
 				collection: this.memory,
+				minRowsPerPage: 100,
 				columns: {
 					name: 'Name',
 					description: 'Description',
