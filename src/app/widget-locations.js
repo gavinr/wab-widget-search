@@ -11,7 +11,6 @@ define([
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/DirectionsWithBarriers",manifestUrl:"https://rawgit.com/Esri/solutions-webappbuilder-widgets/master/DirectionsWithBarriers/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ERG",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/ERG/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ElevationProfileTable",manifestUrl:"https://rawgit.com/Esri/solutions-webappbuilder-widgets/master/ElevationProfileTable/manifest.json"},
-		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/GeoLookup",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/GeoLookup/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ImageDiscovery",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/ImageDiscovery/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/MissionEditor",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/MissionEditor/manifest.json"},
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/NetworkTrace",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/NetworkTrace/manifest.json"},
