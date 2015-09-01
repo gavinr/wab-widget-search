@@ -14,6 +14,7 @@ define([
 	'dojo/on',
 	'dojo/promise/all',
 	'dojo/request/xhr',
+	'dojo/Deferred',
 
 	'dstore/Filter',
 	'dstore/Memory',
@@ -23,13 +24,15 @@ define([
 	widgetLocations,
 	DijitRegistry, OnDemandGrid,
 	TextBox, BorderContainer, ContentPane,
-	array, declare, lang, on, all, xhr,
+	array, declare, lang, on, all, xhr, Deferred,
 	Filter, Memory
 ) {
 	return {
 		startup: function() {
 			this.initPageStructure();
-			this.getData(widgetLocations).then(lang.hitch(this, 'initComponents'));
+			this.getData(widgetLocations).then(lang.hitch(this, 'initComponents'), function(err) {
+				console.log('Error:', err);
+			});
 		},
 		initPageStructure: function() {
 			this.borderContainer = new BorderContainer({
@@ -87,6 +90,12 @@ define([
 			grid.set("collection", setToMemory);
 		},
 		initComponents: function(data) {
+			data = data.filter(function(item) {
+				if(item === false) {
+					return false;
+				}
+				return true;
+			});
 			data = this.addLinks(data);
 			this.memory = new Memory({
 				data: data,
@@ -135,15 +144,25 @@ define([
 		},
 		getData: function(dataUrls) {
 			var dl = array.map(dataUrls, function(url) {
-				return xhr(url.manifestUrl, {
-					handleAs: 'json',
-					preventCache: true,
-					headers: {
-						"X-Requested-With": ""
-					},
-				});
-			});
+				return this.getUrl(url.manifestUrl);
+			}.bind(this));
 			return all(dl);
+		},
+		getUrl: function(url) {
+			var deferred = new Deferred();
+			xhr(url, {
+				handleAs: 'json',
+				preventCache: true,
+				headers: {
+					"X-Requested-With": ""
+				},
+			}).then(function(res) {
+				deferred.resolve(res);
+			}.bind(this), function(err) {
+				console.log('Invalid URL. The user probably took this repo down: ', url);
+				deferred.resolve(false);
+			});
+			return deferred;
 		},
 		queryGrid: function(item, index, items) {
 			var filterString = this.filterTextBox ? this.filterTextBox.get("value") + "" : "";
