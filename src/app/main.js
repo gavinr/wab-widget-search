@@ -203,7 +203,6 @@ define([
 			return false;
 		},
 		addExtras: function(data) {
-			console.log('addExtras', data);
 			for (var i = 0; i < data.length; i++) {
 				data[i].manifest.link = widgetLocations[i]['url'];
 				data[i].manifest.popularity = data[i].repoData.stargazers_count + data[i].repoData.subscribers_count;
