@@ -137,11 +137,9 @@ define([
 				var curProp = evt.sort[0].property;
 				var descending = evt.sort[0].descending;
 				if (curProp == 'name' || curProp == 'description' || curProp == 'author') {
-					console.log('c,d', curProp, descending);
 					evt.preventDefault();
 
 					this.grid.set("sort", function(a, b) {
-						console.log('b');
 						if (a[curProp].toLowerCase() < b[curProp].toLowerCase()) return (descending === true ? 1 : -1);
 						if (a[curProp].toLowerCase() > b[curProp].toLowerCase()) return (descending === true ? -1 : 1);
 						return 0;
