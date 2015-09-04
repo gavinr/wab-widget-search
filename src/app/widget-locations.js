@@ -34,6 +34,7 @@ define([
 		{url:"https://github.com/gisfromscratch/webapp-builder-demos/tree/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage",manifestUrl:"//rawgit.com/gisfromscratch/webapp-builder-demos/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage/manifest.json"}, 
 		{url:"https://github.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget",manifestUrl:"//rawgit.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget/master/manifest.json"}, 
 		{url:"https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",manifestUrl:"//rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"}, 
+		{url:"https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",manifestUrl:"//rawgit.com/kcigeospatial/gdx-javascript/master/arcgiswebappbuilderwidget/NCRGDX/manifest.json"},
 		// {url:"",manifestUrl:""}, 
 	];
 });
