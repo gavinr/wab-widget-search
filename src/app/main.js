@@ -57,7 +57,7 @@ define([
 			// create a ContentPane as the center pane in the BorderContainer
 			this.cp3 = new ContentPane({
 				region: "bottom",
-				content: '<div class="link"><a href="https://github.com/gavinr/wab-widget-search/blob/master/src/app/widget-locations.js" target="_blank">Submit your manifest link here!</a></div>'
+				content: '<div class="link"><a href="https://github.com/gavinr/wab-widget-search" target="_blank">Submit your widget to the list!</a> <iframe src="https://ghbtns.com/github-btn.html?user=gavinr&repo=wab-widget-search&type=star&count=false" frameborder="0" scrolling="0" width="50px" height="20px" style="vertical-align: middle; margin-left: 10px;"></iframe></div>'
 			});
 			this.borderContainer.addChild(this.cp3);
 
