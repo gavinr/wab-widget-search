@@ -133,32 +133,15 @@ define([
 			}, "mainDGrid");
 
 			// dgrid case-insensitive sort:
-			on(this.grid, 'dgrid-sort', lang.hitch(this, function(evt) {
-				var curProp = evt.sort[0].property;
-				var descending = evt.sort[0].descending;
-				if (curProp == 'name' || curProp == 'description' || curProp == 'author') {
-					evt.preventDefault();
-
-					this.grid.set("sort", function(a, b) {
-						if (a[curProp].toLowerCase() < b[curProp].toLowerCase()) return (descending === true ? 1 : -1);
-						if (a[curProp].toLowerCase() > b[curProp].toLowerCase()) return (descending === true ? -1 : 1);
-						return 0;
-					});
-					this.grid.updateSortArrow(evt.sort, true);
-				}
-
-			}));
+			on(this.grid, 'dgrid-sort', lang.hitch(this, 'ciSortHandler'));
 
 			// call the initialSort:
-			this.grid.set("sort", function(a, b) {
-				if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
-				if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
-				return 0;
+			this.ciSortHandler({
+				sort: [{
+					property: 'name',
+					descending: false
+				}]
 			});
-			this.grid.updateSortArrow([{
-				property: 'name',
-				descending: false
-			}], true);
 
 			this.filterTextBox = new TextBox({
 				'class': 'filteringTextBox',
@@ -169,6 +152,22 @@ define([
 				this.filterGrid(this.grid, this.memory, searchValue);
 			}));
 			this.borderContainer.startup();
+		},
+		ciSortHandler: function(evt) {
+			var curProp = evt.sort[0].property;
+			var descending = evt.sort[0].descending;
+			if (curProp == 'name' || curProp == 'description' || curProp == 'author') {
+				if (evt.preventDefault) {
+					evt.preventDefault();
+				}
+
+				this.grid.set("sort", function(a, b) {
+					if (a[curProp].toLowerCase() < b[curProp].toLowerCase()) return (descending === true ? 1 : -1);
+					if (a[curProp].toLowerCase() > b[curProp].toLowerCase()) return (descending === true ? -1 : 1);
+					return 0;
+				});
+				this.grid.updateSortArrow(evt.sort, true);
+			}
 		},
 		getData: function(dataUrls) {
 			var dl = array.map(dataUrls, function(url) {
