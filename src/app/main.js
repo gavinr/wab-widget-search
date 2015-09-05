@@ -57,7 +57,7 @@ define([
 			// create a ContentPane as the center pane in the BorderContainer
 			this.cp3 = new ContentPane({
 				region: "bottom",
-				content: '<div class="link"><a href="https://github.com/gavinr/wab-widget-search/blob/master/src/app/widget-locations.js" target="_blank">Submit your manifest link here!</a></div>'
+				content: '<div class="link"><a href="https://github.com/gavinr/wab-widget-search" target="_blank">Submit your widget to the list!</a> <iframe src="https://ghbtns.com/github-btn.html?user=gavinr&repo=wab-widget-search&type=star&count=false" frameborder="0" scrolling="0" width="50px" height="20px" style="vertical-align: middle; margin-left: 10px;"></iframe></div>'
 			});
 			this.borderContainer.addChild(this.cp3);
 
@@ -131,7 +131,17 @@ define([
 				},
 				query: lang.hitch(this, 'queryGrid')
 			}, "mainDGrid");
-			this.grid.set('sort', 'name');
+
+			// dgrid case-insensitive sort:
+			on(this.grid, 'dgrid-sort', lang.hitch(this, 'ciSortHandler'));
+
+			// call the initialSort:
+			this.ciSortHandler({
+				sort: [{
+					property: 'name',
+					descending: false
+				}]
+			});
 
 			this.filterTextBox = new TextBox({
 				'class': 'filteringTextBox',
@@ -142,6 +152,22 @@ define([
 				this.filterGrid(this.grid, this.memory, searchValue);
 			}));
 			this.borderContainer.startup();
+		},
+		ciSortHandler: function(evt) {
+			var curProp = evt.sort[0].property;
+			var descending = evt.sort[0].descending;
+			if (curProp == 'name' || curProp == 'description' || curProp == 'author') {
+				if (evt.preventDefault) {
+					evt.preventDefault();
+				}
+
+				this.grid.set("sort", function(a, b) {
+					if (a[curProp].toLowerCase() < b[curProp].toLowerCase()) return (descending === true ? 1 : -1);
+					if (a[curProp].toLowerCase() > b[curProp].toLowerCase()) return (descending === true ? -1 : 1);
+					return 0;
+				});
+				this.grid.updateSortArrow(evt.sort, true);
+			}
 		},
 		getData: function(dataUrls) {
 			var dl = array.map(dataUrls, function(url) {
