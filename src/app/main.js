@@ -230,12 +230,19 @@ define([
 		},
 		addExtras: function(data) {
 			for (var i = 0; i < data.length; i++) {
-				data[i].manifest.link = widgetLocations[i]['url'];
-				data[i].manifest.popularity = data[i].repoData.stargazers_count + data[i].repoData.subscribers_count;
+				if (data[i] !== false) {
+					data[i].manifest.link = widgetLocations[i]['url'];
+					data[i].manifest.popularity = data[i].repoData.stargazers_count + data[i].repoData.subscribers_count;
+				}
 			}
 
 			var retData = data.map(function(obj) {
 				return obj.manifest;
+			});
+			retData = retData.filter(function(obj) {
+				if (obj) {
+					return obj;
+				}
 			});
 			return retData;
 		}
