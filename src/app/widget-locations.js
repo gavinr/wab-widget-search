@@ -36,6 +36,8 @@ define([
 		{url:"https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",manifestUrl:"//rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"}, 
 		{url:"https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",manifestUrl:"//rawgit.com/kcigeospatial/gdx-javascript/master/arcgiswebappbuilderwidget/NCRGDX/manifest.json"},
 		{url:"https://github.com/URSpatial/WAB_AddShapefile",manifestUrl:"//rawgit.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json"}, 
+		{url:"https://github.com/kevinsagis/EnhancedQuery/tree/master/eQuery/widgets/Enhanced%20Query",manifestUrl:"//rawgit.com/kevinsagis/EnhancedQuery/master/eQuery/widgets/Enhanced%20Query/manifest.json"},
+		{url:"https://github.com/mdgio/WAB/tree/master/AddData",manifestUrl:"//rawgit.com/mdgio/WAB/master/AddData/manifest.json"}
 		// {url:"",manifestUrl:""}, 
 	];
 });
