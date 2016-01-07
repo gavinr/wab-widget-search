@@ -186,7 +186,7 @@ define([
 			}).then(function(res) {
 				xhr(this.getApiUrl(url), {
 					handleAs: 'json',
-					preventCache: true,
+					preventCache: false,
 					headers: {
 						"X-Requested-With": ""
 					},
@@ -206,7 +206,9 @@ define([
 		},
 		getApiUrl: function(url) {
 			var parts = url.split("/");
-			var repoUrl = 'http://gavhost.com/githubApiCache/?url=https://api.github.com/repos/' + parts[3] + '/' + parts[4];
+			// base used for caching due to GitHub API restrictions. Set 'base' to '' for local testing.
+			var base = 'http://gavhost.com/githubApiCache/?url=';
+			var repoUrl = base + 'https://api.github.com/repos/' + parts[3] + '/' + parts[4];
 			return repoUrl;
 		},
 		queryGrid: function(item, index, items) {
