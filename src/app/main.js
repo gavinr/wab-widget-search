@@ -179,7 +179,7 @@ define([
 			var deferred = new Deferred();
 			xhr(url, {
 				handleAs: 'json',
-				preventCache: true,
+				preventCache: false,
 				headers: {
 					"X-Requested-With": ""
 				},

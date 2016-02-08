@@ -39,6 +39,9 @@ define([
 		{url:"https://github.com/cmndrbensisko/LayerListLite",manifestUrl:"//rawgit.com/cmndrbensisko/LayerListLite/master/manifest.json"},
 		{url:"https://github.com/jgrayson-apl/ISTimeSelect",manifestUrl:"//rawgit.com/jgrayson-apl/ISTimeSelect/master/manifest.json"},
 		{url:"https://github.com/markdeaton/closest-facility-wab-js",manifestUrl:"//rawgit.com/markdeaton/closest-facility-wab-js/master/manifest.json"},
+		{url:"https://github.com/softwhere/AddLayer-Widget",manifestUrl:"//rawgit.com/softwhere/AddLayer-Widget/master/manifest.json"},
+		{url:"https://github.com/softwhere/ChangeWebMap-Widget",manifestUrl:"//rawgit.com/softwhere/ChangeWebMap-Widget/master/manifest.json"},
+		{url:"https://github.com/softwhere/SaveSession-Widget",manifestUrl:"https://rawgit.com/softwhere/SaveSession-Widget/master/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
