@@ -42,6 +42,7 @@ define([
 		{url:"https://github.com/softwhere/AddLayer-Widget",manifestUrl:"//rawgit.com/softwhere/AddLayer-Widget/master/manifest.json"},
 		{url:"https://github.com/softwhere/ChangeWebMap-Widget",manifestUrl:"//rawgit.com/softwhere/ChangeWebMap-Widget/master/manifest.json"},
 		{url:"https://github.com/softwhere/SaveSession-Widget",manifestUrl:"https://rawgit.com/softwhere/SaveSession-Widget/master/manifest.json"},
+		{url:"https://github.com/mapillary/Mapillary-WebAppWidget",manifestUrl:"https://cdn.rawgit.com/mapillary/Mapillary-WebAppWidget/master/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });

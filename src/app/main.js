@@ -207,7 +207,7 @@ define([
 		getApiUrl: function(url) {
 			var parts = url.split("/");
 			// base used for caching due to GitHub API restrictions. Set 'base' to '' for local testing.
-			var base = 'http://gavhost.com/githubApiCache/?url=';
+			var base = 'https://gavinr.com/githubApiCache/?url=';
 			var repoUrl = base + 'https://api.github.com/repos/' + parts[3] + '/' + parts[4];
 			return repoUrl;
 		},
