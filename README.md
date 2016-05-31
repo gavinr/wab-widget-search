@@ -1,7 +1,7 @@
 # wab-widget-search
 A simple page to filter and find WAB widgets. 
 
-[Click here](http://gavinr.github.io/wab-widget-search/) for the search page.
+[Click here](https://gavinr.github.io/wab-widget-search/) for the search page.
 
 ### To submit your widget to the list
 1. Upload the widget to Github (under your own repo or submit a PR to https://github.com/Esri/arcgis-webappbuilder-widgets-themes).
