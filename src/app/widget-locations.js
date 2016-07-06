@@ -15,7 +15,7 @@ define([
 		{url:"https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/FilterEditor",manifestUrl:"//rawgit.com/Esri/solutions-webappbuilder-widgets/master/FilterEditor/manifest.json"},
 		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Bookmark",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Bookmark/manifest.json"},
 		{url:"https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/GeoChat",manifestUrl:"//rawgit.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/GeoChat/manifest.json"},
-		{url:"https://github.com/gavinr/wab-wikipedia-search",manifestUrl:"//rawgit.com/gavinr/wab-wikipedia-search/master/manifest.json"},
+		{url:"https://github.com/gavinr/wab-wikipedia-search",manifestUrl:"//rawgit.com/gavinr/wab-wikipedia-search/master/widgets/WikipediaSearch/manifest.json"},
 		{url:"https://github.com/timw1984/WebAppBuilder/tree/master/Location",manifestUrl:"//rawgit.com/timw1984/WebAppBuilder/master/Location/manifest.json"},
 		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-url",manifestUrl:"//rawgit.com/magis-nc/esri-webappbuilder-widget-url/master/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/LocalLayer",manifestUrl:"//rawgit.com/cmndrbensisko/LocalLayer/master/manifest.json"},
