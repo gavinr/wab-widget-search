@@ -43,6 +43,7 @@ define([
 		{url:"https://github.com/softwhere/ChangeWebMap-Widget",manifestUrl:"//rawgit.com/softwhere/ChangeWebMap-Widget/master/manifest.json"},
 		{url:"https://github.com/softwhere/SaveSession-Widget",manifestUrl:"https://rawgit.com/softwhere/SaveSession-Widget/master/manifest.json"},
 		{url:"https://github.com/mapillary/Mapillary-WebAppWidget",manifestUrl:"https://cdn.rawgit.com/mapillary/Mapillary-WebAppWidget/master/manifest.json"},
+		{url:"https://github.com/gavinr/presentations",manifestUrl:"https://cdn.rawgit.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
