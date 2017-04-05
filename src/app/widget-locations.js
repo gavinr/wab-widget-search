@@ -35,7 +35,7 @@ define([
 		{url:"https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",manifestUrl:"//rawgit.com/kcigeospatial/gdx-javascript/master/arcgiswebappbuilderwidget/NCRGDX/manifest.json"},
 		{url:"https://github.com/URSpatial/WAB_AddShapefile",manifestUrl:"//rawgit.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json"},
 		{url:"https://github.com/kevinsagis/EnhancedQuery/tree/master/eQuery/widgets/Enhanced%20Query",manifestUrl:"//rawgit.com/kevinsagis/EnhancedQuery/master/eQuery/widgets/Enhanced%20Query/manifest.json"},
-		{url:"https://github.com/mdgio/WAB/tree/master/AddData",manifestUrl:"//rawgit.com/mdgio/WAB/master/AddData/manifest.json"},
+		{url:"https://github.com/mdgio/WAB/tree/master/AddiMAPData",manifestUrl:"//rawgit.com/mdgio/WAB/master/AddiMAPData/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/LayerListLite",manifestUrl:"//rawgit.com/cmndrbensisko/LayerListLite/master/manifest.json"},
 		{url:"https://github.com/jgrayson-apl/ISTimeSelect",manifestUrl:"//rawgit.com/jgrayson-apl/ISTimeSelect/master/manifest.json"},
 		{url:"https://github.com/markdeaton/closest-facility-wab-js",manifestUrl:"//rawgit.com/markdeaton/closest-facility-wab-js/master/manifest.json"},
@@ -44,6 +44,7 @@ define([
 		{url:"https://github.com/softwhere/SaveSession-Widget",manifestUrl:"https://rawgit.com/softwhere/SaveSession-Widget/master/manifest.json"},
 		{url:"https://github.com/mapillary/Mapillary-WebAppWidget",manifestUrl:"https://cdn.rawgit.com/mapillary/Mapillary-WebAppWidget/master/manifest.json"},
 		{url:"https://github.com/gavinr/presentations",manifestUrl:"https://cdn.rawgit.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json"},
+		{url:"https://github.com/CanterburyRegionalCouncil/Trip-Splitter-Widget",manifestUrl:"https://cdn.rawgit.com/CanterburyRegionalCouncil/Trip-Splitter-Widget/master/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });

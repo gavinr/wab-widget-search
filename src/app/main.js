@@ -106,7 +106,11 @@ define([
 			};
 			var makeLicense = function(data) {
 				if (data == 'http://www.apache.org/licenses/LICENSE-2.0') {
-					return '<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0</a>';
+					return '<a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank">Apache 2.0</a>';
+				} else if (data == 'MIT' || data == 'MIT License') {
+					return '<a href="https://choosealicense.com/licenses/mit/" target="_blank">Apache 2.0</a>';
+				} else if (data.startsWith('http://')) {
+					return '<a href="' + data + '" target="_blank">' + data + '</a>';
 				}
 				return data;
 			};
