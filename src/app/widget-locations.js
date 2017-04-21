@@ -45,6 +45,7 @@ define([
 		{url:"https://github.com/mapillary/Mapillary-WebAppWidget",manifestUrl:"https://cdn.rawgit.com/mapillary/Mapillary-WebAppWidget/master/manifest.json"},
 		{url:"https://github.com/gavinr/presentations",manifestUrl:"https://cdn.rawgit.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json"},
 		{url:"https://github.com/CanterburyRegionalCouncil/Trip-Splitter-Widget",manifestUrl:"https://cdn.rawgit.com/CanterburyRegionalCouncil/Trip-Splitter-Widget/master/manifest.json"},
+		{url:"https://github.com/LG-Spatial/wab-fmv-widgets/tree/master/FMVWidget",manifestUrl:"https://cdn.rawgit.com/LG-Spatial/wab-fmv-widgets/master/FMVWidget/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
