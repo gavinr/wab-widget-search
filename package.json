@@ -22,7 +22,7 @@
     "url": "https://github.com/gavinr/wab-widget-search/issues"
   },
   "homepage": "https://github.com/gavinr/wab-widget-search#readme",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-gh-pages": "^2.0.0"
