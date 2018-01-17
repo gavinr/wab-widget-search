@@ -35,7 +35,6 @@ define([
 		{url:"https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/StatusMonitoring",manifestUrl:"//rawgit.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/StatusMonitoring/manifest.json"},
 		{url:"https://github.com/gisfromscratch/webapp-builder-demos/tree/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage",manifestUrl:"//rawgit.com/gisfromscratch/webapp-builder-demos/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage/manifest.json"},
 		{url:"https://github.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget",manifestUrl:"//rawgit.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget/master/manifest.json"},
-		{url:"https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",manifestUrl:"//rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"},
 		{url:"https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",manifestUrl:"//rawgit.com/kcigeospatial/gdx-javascript/master/arcgiswebappbuilderwidget/NCRGDX/manifest.json"},
 		{url:"https://github.com/URSpatial/WAB_AddShapefile",manifestUrl:"//rawgit.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json"},
 		{url:"https://github.com/kevinsagis/EnhancedQuery/tree/master/eQuery/widgets/Enhanced%20Query",manifestUrl:"//rawgit.com/kevinsagis/EnhancedQuery/master/eQuery/widgets/Enhanced%20Query/manifest.json"},
@@ -66,7 +65,9 @@ define([
 		{url:"https://github.com/Esri/WAB-Image-Services-Widgets",manifestUrl:"https://cdn.rawgit.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISRenderer/manifest.json"},
 		{url:"https://github.com/Esri/WAB-Image-Services-Widgets",manifestUrl:"https://cdn.rawgit.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISScatterplot/manifest.json"},
 
-		{url:"https://github.com/kevinsagis/ScreenshotDemo/",manifestUrl:"https://cdn.rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"},
+		{url:"https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",manifestUrl:"//rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"},
+		{url:"https://github.com/gavinr/web-appbuilder-find-restaurants",manifestUrl:"//cdn.rawgit.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json"},
+		{url:"https://github.com/kevinsagis/GoogleEarth/tree/master/widgets/Earth",manifestUrl:"//cdn.rawgit.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
