@@ -68,6 +68,8 @@ define([
 		{url:"https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",manifestUrl:"//rawgit.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"},
 		{url:"https://github.com/gavinr/web-appbuilder-find-restaurants",manifestUrl:"//cdn.rawgit.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json"},
 		{url:"https://github.com/kevinsagis/GoogleEarth/tree/master/widgets/Earth",manifestUrl:"//cdn.rawgit.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json"},
+		{url:"https://github.com/Esri/visibility-addin-dotnet/tree/dev/source/widget/Visibility",manifestUrl:"//cdn.rawgit.com/Esri/visibility-addin-dotnet/dev/source/widget/Visibility/manifest.json"},
+		{url:"https://github.com/Esri/distance-direction-addin-dotnet/tree/dev/source/widget/DistanceAndDirection",manifestUrl:"//cdn.rawgit.com/Esri/distance-direction-addin-dotnet/dev/source/widget/DistanceAndDirection/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
