@@ -71,6 +71,7 @@ define([
 		{url:"https://github.com/Esri/visibility-addin-dotnet/tree/dev/source/widget/Visibility",manifestUrl:"//cdn.rawgit.com/Esri/visibility-addin-dotnet/dev/source/widget/Visibility/manifest.json"},
 		{url:"https://github.com/Esri/distance-direction-addin-dotnet/tree/dev/source/widget/DistanceAndDirection",manifestUrl:"//cdn.rawgit.com/Esri/distance-direction-addin-dotnet/dev/source/widget/DistanceAndDirection/manifest.json"},
 		{url:"https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",manifestUrl:"//cdn.rawgit.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json"},
+		{url:"https://github.com/Esri/adopta/tree/master/Adopta",manifestUrl:"//cdn.rawgit.com/Esri/adopta/master/Adopta/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
