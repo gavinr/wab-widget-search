@@ -23,6 +23,7 @@ define([
 		{url:"https://github.com/timw1984/WebAppBuilder/tree/master/Location",manifestUrl:"//rawgit.com/timw1984/WebAppBuilder/master/Location/manifest.json"},
 		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-url",manifestUrl:"//rawgit.com/magis-nc/esri-webappbuilder-widget-url/master/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/LocalLayer",manifestUrl:"//rawgit.com/cmndrbensisko/LocalLayer/master/2D/LocalLayer/manifest.json"},
+		{url:"https://github.com/daFiter/localLayer_filter",manifestUrl:"//cdn.rawgit.com/daFiter/localLayer_filter/master/manifest.json"},
 		{url:"https://github.com/cmndrbensisko/AccessifizrWidget",manifestUrl:"//rawgit.com/cmndrbensisko/AccessifizrWidget/master/manifest.json"},
 		{url:"https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",manifestUrl:"//rawgit.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json"},
 		{url:"https://github.com/mlewis22/WebAppBuilder/tree/master/Google%20Analytics/Widget/GoogleAnalytics",manifestUrl:"//cdn.rawgit.com/mlewis22/WebAppBuilder/master/Google%20Analytics/Widget/GoogleAnalytics/manifest.json"},
@@ -70,6 +71,7 @@ define([
 		{url:"https://github.com/Esri/distance-direction-addin-dotnet/tree/dev/source/widget/DistanceAndDirection",manifestUrl:"//cdn.rawgit.com/Esri/distance-direction-addin-dotnet/dev/source/widget/DistanceAndDirection/manifest.json"},
 		{url:"https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",manifestUrl:"//cdn.rawgit.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json"},
 		{url:"https://github.com/Esri/adopta/tree/master/Adopta",manifestUrl:"//cdn.rawgit.com/Esri/adopta/master/Adopta/manifest.json"},
+		{url:"https://github.com/sagewall/DrawBufferWidget",manifestUrl:"https://cdn.rawgit.com/sagewall/DrawBufferWidget/master/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
