@@ -72,6 +72,9 @@ define([
 		{url:"https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",manifestUrl:"//cdn.rawgit.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json"},
 		{url:"https://github.com/Esri/adopta/tree/master/Adopta",manifestUrl:"//cdn.rawgit.com/Esri/adopta/master/Adopta/manifest.json"},
 		{url:"https://github.com/sagewall/DrawBufferWidget",manifestUrl:"https://cdn.rawgit.com/sagewall/DrawBufferWidget/master/manifest.json"},
+		{ url: "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeDisplayProperties", manifestUrl:"https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeDisplayProperties/manifest.json"},
+		{ url: "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeIdentify", manifestUrl: "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeIdentify/manifest.json"},
+		{ url: "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeSearch", manifestUrl: "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeSearch/manifest.json"},
 		// {url:"",manifestUrl:""},
 	];
 });
