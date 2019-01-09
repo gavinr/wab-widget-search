@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "wab-widget-search",
+  "description": "A simple page to filter and find Esri Web AppBuilder widgets.",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",

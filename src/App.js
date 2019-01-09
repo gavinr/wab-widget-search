@@ -1,25 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Categories from './Categories';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      widgetsJson: []
+    };
+  }
+
+  async componentDidMount() {
+    const url = 'https://s3.us-east-2.amazonaws.com/wab-widget-search/widgets.json';
+    try {
+      const res = await fetch(url);
+      const widgetsJson = await res.json();
+
+      // https://reactjs.org/docs/faq-ajax.html
+      this.setState({
+        widgetsJson: widgetsJson
+      });
+    } catch (err) {
+      console.error('Could not get widget JSON! Check the URL: ', url, err);
+    }
+  }
+
   render() {
+    const { widgetsJson } = this.state;
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header></Header>
+        <Categories widgetsJson={widgetsJson}></Categories>
       </div>
     );
   }
