@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
-import Categories from './Categories';
+import Body from './Body';
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header></Header>
-        <Categories widgetsJson={widgetsJson}></Categories>
+        <Body widgetsJson={widgetsJson}></Body>
       </div>
     );
   }
