@@ -6,6 +6,15 @@ class Categories extends Component {
   constructor() {
     super();
     console.log('here');
+    this.state = {
+      searchValue: '',
+    };
+  }
+
+  handleSearchChange(e) {
+    this.setState({
+      searchValue: e.target.value
+    });
   }
 
 
@@ -28,7 +37,7 @@ class Categories extends Component {
         </aside>
         <main className="column-17" role="main">
           <div className="input-group">
-            <input className="input-group-input" type="text" placeholder="Find a great widget for your app!" />
+            <input className="input-group-input" type="text" placeholder="Find a great widget for your app!" onChange={(e) => this.handleSearchChange(e)} />
             <span className="input-group-button">
               <button className="btn">Search</button>
             </span>
@@ -37,8 +46,12 @@ class Categories extends Component {
 
 
           <div className="block-group block-group-3-up tablet-block-group-2-up phone-block-group-1-up">
-            {this.props.widgetsJson.map((c, i) => {
-              return <Card title={c.url} key={i}></Card>;
+            {this.props.widgetsJson.filter((c) => {
+               return c.name.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1 || 
+                c.description.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1; // || 
+                // todo - categories - c.description.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1 || ;
+            }).map((c, i) => {
+              return <Card title={c.name} description={c.description} image={c.thumbnail} download={c.download} categories={c.categories} key={i}></Card>;
             })}
           </div>
         </main>
