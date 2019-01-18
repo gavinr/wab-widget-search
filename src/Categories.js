@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 export default class Categories extends Component {
+  categoryChange(e, category) {
+    e.preventDefault();
+    this.props.categoryChange(category);
+  }
+
   render() {
     return (
       <nav className="js-accordion accordion">
@@ -9,8 +14,8 @@ export default class Categories extends Component {
           <div className="accordion-content">
             { 
               this.props.categories.map((category, i) => {
-                return <a href="/todo" className="side-nav-link" key={i}>{category}</a>
-              }) 
+                return <a href="/todo" className="side-nav-link" key={i} onClick={(e) => {this.categoryChange(e, category)}}>{category}</a>
+              }, this)
             }
           </div>
         </div>
