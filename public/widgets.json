@@ -121,7 +121,8 @@
   },
   {
     "url": "https://github.com/URSpatial/WAB_AddShapefile",
-    "manifestUrl": "https://raw.githubusercontent.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json",
+    "tags": ["Layers"]
   },
   {
     "url": "https://github.com/kevinsagis/EnhancedQuery/tree/master/eQuery/widgets/Enhanced%20Query",
@@ -133,7 +134,8 @@
   },
   {
     "url": "https://github.com/cmndrbensisko/LayerListLite",
-    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/LayerListLite/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/LayerListLite/master/manifest.json",
+    "tags": ["Layers"]
   },
   {
     "url": "https://github.com/jgrayson-apl/ISTimeSelect",
@@ -145,7 +147,8 @@
   },
   {
     "url": "https://github.com/softwhere/AddLayer-Widget",
-    "manifestUrl": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/manifest.json",
+    "tags": ["Layers"]
   },
   {
     "url": "https://github.com/softwhere/ChangeWebMap-Widget",
@@ -157,7 +160,8 @@
   },
   {
     "url": "https://github.com/gavinr/presentations",
-    "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json",
+    "tags": ["Third-Party APIs"]
   },
   {
     "url": "https://github.com/CanterburyRegionalCouncil/Trip-Splitter-Widget",
@@ -169,55 +173,68 @@
   },
   {
     "url": "https://github.com/kevinsagis/Pictometry-for-WebApp-Builder",
-    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/Pictometry-for-WebApp-Builder/master/Pictometry/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/Pictometry-for-WebApp-Builder/master/Pictometry/manifest.json",
+    "tags": ["Third-Party APIs"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISChangeDetection/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISChangeDetection/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISClassification/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISClassification/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISCompare/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISCompare/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayOrder/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayOrder/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayParameters/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayParameters/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISExport/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISExport/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageDate/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageDate/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageSelector/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageSelector/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISLayers/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISLayers/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISProfile/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISProfile/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISRenderer/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISRenderer/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISScatterplot/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISScatterplot/manifest.json",
+    "tags": ["Image Services"]
   },
   {
     "url": "https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",
@@ -225,11 +242,13 @@
   },
   {
     "url": "https://github.com/gavinr/web-appbuilder-find-restaurants",
-    "manifestUrl": "https://raw.githubusercontent.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json",
+    "tags": ["Third-Party APIs"]
   },
   {
     "url": "https://github.com/kevinsagis/GoogleEarth/tree/master/widgets/Earth",
-    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json",
+    "tags": ["Third-Party APIs"]
   },
   {
     "url": "https://github.com/Esri/visibility-addin-dotnet/tree/dev/source/widget/Visibility",
@@ -241,7 +260,8 @@
   },
   {
     "url": "https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",
-    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json",
+    "tags": ["Graphs and Charts"]
   },
   {
     "url": "https://github.com/Esri/adopta/tree/master/Adopta",
@@ -249,7 +269,8 @@
   },
   {
     "url": "https://github.com/sagewall/DrawBufferWidget",
-    "manifestUrl": "https://raw.githubusercontent.com/sagewall/DrawBufferWidget/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/sagewall/DrawBufferWidget/master/manifest.json",
+    "tags": ["Drawing and Editing"]
   },
   {
     "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeDisplayProperties",

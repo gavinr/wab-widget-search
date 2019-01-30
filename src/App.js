@@ -13,7 +13,8 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const url = 'https://s3.us-east-2.amazonaws.com/wab-widget-search/widgets.json';
+    // const url = 'https://s3.us-east-2.amazonaws.com/wab-widget-search/widgets.json';
+    const url = 'https://www.arcgis.com/sharing/rest/content/items/60f1147723334e9aa1cafdddd2ce4239/data';
     try {
       const res = await fetch(url);
       const widgetsJson = await res.json();
