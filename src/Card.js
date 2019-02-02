@@ -4,8 +4,8 @@ import CardImage from './CardImage';
 class Card extends Component {
   render() {
     let image = '';
-    if(this.props.image) {
-      image = <CardImage image={this.props.image}></CardImage>;
+    if(this.props.thumbnail) {
+      image = <CardImage image={this.props.thumbnail}></CardImage>;
     }
     return (
       <div className="card card-bar-blue block trailer-1">
