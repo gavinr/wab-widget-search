@@ -4,7 +4,8 @@ import './App.css';
 import Header from './Header';
 import Body from './Body';
 import About from './About';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import WidgetSingle from './WidgetSingle';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends Component {
     
           <Route exact path="/" render={(props) => <Body {...props} widgetsJson={widgetsJson} />} />
           <Route exact path="/about" component={About} />
+          <Route path="/widget/:widgetSlug" component={WidgetSingle} />
         </div>
       </Router>
     );
