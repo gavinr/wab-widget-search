@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import Body from './Body';
+import About from './About';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -31,10 +33,14 @@ class App extends Component {
   render() {
     const { widgetsJson } = this.state;
     return (
-      <div className="App">
-        <Header></Header>
-        <Body widgetsJson={widgetsJson}></Body>
-      </div>
+      <Router>
+        <div className="App">
+          <Header />
+    
+          <Route exact path="/" render={(props) => <Body {...props} widgetsJson={widgetsJson} />} />
+          <Route exact path="/about" component={About} />
+        </div>
+      </Router>
     );
   }
 }

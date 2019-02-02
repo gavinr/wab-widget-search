@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -8,10 +9,14 @@ class Header extends Component {
           <div className="column-24">
             <div className="tablet-hide">
               <a className="skip-to-content" href="#skip-to-content">Skip To Content</a>
-              <a href="/" className="top-nav-title">Web AppBuilder Widget Search</a>
+              <NavLink to="/" className="top-nav-title"  activeClassName="is-active">
+                Web AppBuilder Widget Search
+              </NavLink>
               <nav className="top-nav-list" role="navigation" aria-labelledby="topnav">
+                <NavLink to="/about" className="top-nav-link"  activeClassName="is-active">
+                  About
+                </NavLink>
               </nav>
-
 
 
               <nav className="class-top-nav-list right" role="navigation" aria-labelledby="usernav">
