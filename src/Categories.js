@@ -14,7 +14,7 @@ export default class Categories extends Component {
           <div className="accordion-content">
             { 
               this.props.categories.map((category, i) => {
-                return <a href="/todo" className="side-nav-link" key={i} onClick={(e) => {this.categoryChange(e, category)}}>{category}</a>
+                return <a href="/todo" className={`side-nav-link ${this.props.currentCategory === category ? 'is-active' : ''}`} key={i} onClick={(e) => {this.categoryChange(e, category)}}>{category}</a>
               }, this)
             }
           </div>

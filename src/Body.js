@@ -21,9 +21,17 @@ class Body extends Component {
   }
 
   handleCategoryChange(e) {
-    this.setState({
-      category: e
-    });
+    // if we already have a category set, CLEAR FILTEr
+    // otherwise, set filter
+    if(this.state.category !== '' && this.state.category === e) {
+      this.setState({
+        category: ''
+      });
+    } else {
+      this.setState({
+        category: e
+      });
+    }
   }
 
 
@@ -37,7 +45,7 @@ class Body extends Component {
       <div className="panel panel-white panel-no-padding padding-leader-1 padding-trailer-1">
       <div className="grid-container">
         <aside className="column-6 post-1">
-          <Categories categories={ uniqueCategories } categoryChange={ (e) => this.handleCategoryChange(e) }></Categories>
+          <Categories categories={ uniqueCategories } categoryChange={ (e) => this.handleCategoryChange(e) } currentCategory={ this.state.category }></Categories>
         </aside>
         <main className="column-17" role="main">
           <SearchBox searchChange={ (e) => this.handleSearchChange(e)}></SearchBox>
