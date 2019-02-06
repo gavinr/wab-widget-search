@@ -115,7 +115,8 @@
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/RandomPoints",
-    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/RandomPoints/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/RandomPoints/manifest.json",
+    "thumbnail": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/RandomPoints/images/randompoints.gif"
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/StatusMonitoring",

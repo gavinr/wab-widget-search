@@ -58,7 +58,7 @@ class Home extends Component {
                   // If cateogry is not blank, filter also on category:
                   (this.state.category === '' || c.categories.indexOf(this.state.category) > -1) ;
               }).map((c, i) => {
-                return <Card title={c.name} description={c.description} thumbnail={c.thumbnail} link={c.slug} repoUrl={c.url} categories={c.categories} key={i}></Card>;
+                return <Card title={c.name} description={c.description} thumbnail={c.thumbnail} link={'widget/' + c.slug} repoUrl={c.url} categories={c.categories} key={i}></Card>;
               })}
             </div>
           </main>

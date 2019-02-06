@@ -40,7 +40,7 @@ class App extends Component {
     
           <Route exact path="/" render={(props) => <Home {...props} widgetsJson={widgetsJson} />} />
           <Route exact path="/about" component={About} />
-          <Route path="/widget/:widgetSlug" component={WidgetSingle} />
+          <Route path="/widget/:widgetSlug" render={(props) => <WidgetSingle {...props} widgetsJson={widgetsJson} />} />
         </div>
       </Router>
     );
