@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
-import Body from './Body';
-import About from './About';
-import WidgetSingle from './WidgetSingle';
+import Header from './components/Header';
+import Home from './pages/Home';
+import About from './pages/About';
+import WidgetSingle from './pages/WidgetSingle';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
@@ -38,7 +38,7 @@ class App extends Component {
         <div className="App">
           <Header />
     
-          <Route exact path="/" render={(props) => <Body {...props} widgetsJson={widgetsJson} />} />
+          <Route exact path="/" render={(props) => <Home {...props} widgetsJson={widgetsJson} />} />
           <Route exact path="/about" component={About} />
           <Route path="/widget/:widgetSlug" component={WidgetSingle} />
         </div>

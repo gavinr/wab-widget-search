@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Card from './Card';
-import Categories from './Categories';
-import SearchBox from './SearchBox';
 
-class Body extends Component {
+import Card from '../components/Card';
+import Categories from '../components/Categories';
+import SearchBox from '../components/SearchBox';
+
+class Home extends Component {
 
   constructor() {
     super();
-    console.log('here');
     this.state = {
       searchValue: '',
       category: ''
@@ -58,7 +58,7 @@ class Body extends Component {
                   // If cateogry is not blank, filter also on category:
                   (this.state.category === '' || c.categories.indexOf(this.state.category) > -1) ;
               }).map((c, i) => {
-                return <Card title={c.name} description={c.description} thumbnail={c.thumbnail} link={c.url} categories={c.categories} key={i}></Card>;
+                return <Card title={c.name} description={c.description} thumbnail={c.thumbnail} link={c.slug} repoUrl={c.url} categories={c.categories} key={i}></Card>;
               })}
             </div>
           </main>
@@ -68,4 +68,4 @@ class Body extends Component {
   }
 }
 
-export default Body;
+export default Home;
