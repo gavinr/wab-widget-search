@@ -356,6 +356,7 @@
   {
     "url": "https://community.esri.com/docs/DOC-8591-url-button-widget-version-23-02142017",
     "manifestUrl": "https://gis.calhouncounty.org/wab/v2.5/widgets/UrlButton/widgets/UrlButton/manifest.json",
+    "thumbnail": "https://i.imgur.com/HqSByMF.png",
     "preview": "https://gis.calhouncounty.org/wab/v2.5/widgets/UrlButton/"
   },
   {
