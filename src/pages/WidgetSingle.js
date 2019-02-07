@@ -42,7 +42,6 @@ export default class WidgetSingle extends Component {
         );
       }
 
-
       return (
         <div className="panel panel-white panel-no-padding padding-leader-1 padding-trailer-1">
           <div className="grid-container">
@@ -54,6 +53,10 @@ export default class WidgetSingle extends Component {
               <div className="column-8">
                 {currentWidget.thumbnail ? <img src={currentWidget.thumbnail} alt="Widget thumbnail" /> : ''}
                 <a href={currentWidget.url} target="_blank" rel="noopener noreferrer" className="btn btn-fill trailer-1">Download from Homepage</a>
+                {currentWidget.preview !== '' && 
+                  <a href={currentWidget.preview} target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-fill trailer-1">Live Preview</a>
+                }
+                
                 <div className="trailer-1">
                   <div>Popularity: {currentWidget.githubStars} GitHub Stars</div>
                   <div>Author: {currentWidget.author}</div>

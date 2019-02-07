@@ -22,6 +22,19 @@ class App extends Component {
       const res = await fetch(url);
       const widgetsJson = await res.json();
 
+      // alphabet sort initially
+      widgetsJson.sort(function(a, b) {
+        const a_u = a.name.toUpperCase();
+        const b_u = b.name.toUpperCase();
+        let comparison = 0;
+        if (a_u > b_u) {
+          comparison = 1;
+        } else if (a_u < b_u) {
+          comparison = -1;
+        }
+        return comparison;
+      });
+
       // https://reactjs.org/docs/faq-ajax.html
       this.setState({
         widgetsJson: widgetsJson

@@ -128,7 +128,9 @@
   },
   {
     "url": "https://github.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget",
-    "manifestUrl": "https://raw.githubusercontent.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget/master/manifest.json",
+    "thumbnail": "https://i.imgur.com/zwYfa7w.png",
+    "preview": "https://ec2-52-64-20-102.ap-southeast-2.compute.amazonaws.com/apps/LocateCoordinatesWidget/"
   },
   {
     "url": "https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",
@@ -308,6 +310,7 @@
   {
     "url": "https://community.esri.com/docs/DOC-2888-enhanced-basemap-gallery-widget-23-02142017",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/eBasemapGallery/widgets/eBasemapGallery/manifest.json",
+    "thumbnail": "https://i.imgur.com/DFe8RkO.png",
     "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/eBasemapGallery/index.html"
   },
   {
