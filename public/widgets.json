@@ -58,6 +58,7 @@
   {
     "url": "https://github.com/gavinr/wab-wikipedia-search",
     "manifestUrl": "https://raw.githubusercontent.com/gavinr/wab-wikipedia-search/master/widgets/WikipediaSearch/manifest.json",
+    "preview": "https://gavinr.github.io/wab-wikipedia-search/",
     "categories": ["Third-Party APIs"],
     "thumbnail": "https://github.com/gavinr/wab-wikipedia-search/raw/master/doc/wab-wikipedia-search.gif"
   },
@@ -256,6 +257,7 @@
   {
     "url": "https://github.com/gavinr/web-appbuilder-find-restaurants",
     "manifestUrl": "https://raw.githubusercontent.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json",
+    "preview": "https://gavinr.github.io/web-appbuilder-find-restaurants/",
     "categories": ["Third-Party APIs"],
     "thumbnail": "https://i.imgur.com/exnimvy.jpg"
   },
