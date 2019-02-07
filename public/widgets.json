@@ -133,10 +133,6 @@
     "preview": "https://ec2-52-64-20-102.ap-southeast-2.compute.amazonaws.com/apps/LocateCoordinatesWidget/"
   },
   {
-    "url": "https://github.com/kcigeospatial/gdx-javascript/tree/master/arcgiswebappbuilderwidget/NCRGDX",
-    "manifestUrl": "https://raw.githubusercontent.com/kcigeospatial/gdx-javascript/master/arcgiswebappbuilderwidget/NCRGDX/manifest.json"
-  },
-  {
     "url": "https://github.com/URSpatial/WAB_AddShapefile",
     "manifestUrl": "https://raw.githubusercontent.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json",
     "categories": ["Layers"]
@@ -267,14 +263,6 @@
     "url": "https://github.com/kevinsagis/GoogleEarth/tree/master/widgets/Earth",
     "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json",
     "categories": ["Third-Party APIs"]
-  },
-  {
-    "url": "https://github.com/Esri/visibility-addin-dotnet/tree/dev/source/widget/Visibility",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/visibility-addin-dotnet/dev/source/widget/Visibility/manifest.json"
-  },
-  {
-    "url": "https://github.com/Esri/distance-direction-addin-dotnet/tree/dev/source/widget/DistanceAndDirection",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/distance-direction-addin-dotnet/dev/source/widget/DistanceAndDirection/manifest.json"
   },
   {
     "url": "https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",
