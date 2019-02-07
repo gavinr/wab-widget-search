@@ -20,7 +20,7 @@ class Header extends Component {
 
 
               <nav className="class-top-nav-list right" role="navigation" aria-labelledby="usernav">
-                <a className="icon-social-github" href="https://github.com/gavinr/wab-widget-search" aria-label="Github" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a className="top-nav-link" href="https://github.com/gavinr/wab-widget-search" aria-label="Github" target="_blank" rel="noopener noreferrer">GitHub</a>
               </nav>
             </div>
 

@@ -48,7 +48,9 @@ class Home extends Component {
             <Categories categories={ uniqueCategories } categoryChange={ (e) => this.handleCategoryChange(e) } currentCategory={ this.state.category }></Categories>
           </aside>
           <main className="column-17" role="main">
-            <SearchBox searchChange={ (e) => this.handleSearchChange(e)}></SearchBox>
+            <div className="trailer-1">
+              <SearchBox searchChange={ (e) => this.handleSearchChange(e)}></SearchBox>
+            </div>
 
             <div className="block-group block-group-3-up tablet-block-group-2-up phone-block-group-1-up">
               {this.props.widgetsJson.filter((c) => {

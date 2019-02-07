@@ -47,18 +47,20 @@ export default class WidgetSingle extends Component {
         <div className="panel panel-white panel-no-padding padding-leader-1 padding-trailer-1">
           <div className="grid-container">
             <main className="column-24" role="main">
+              <div className="column-16">
+                <h1 className="trailer-1">{currentWidget.name}</h1>
+                <p>{currentWidget.description}</p>
+              </div>
               <div className="column-8">
                 {currentWidget.thumbnail ? <img src={currentWidget.thumbnail} alt="Widget thumbnail" /> : ''}
-                <a href={currentWidget.url} target="_blank" rel="noopener noreferrer" className="btn btn-fill">Download from Homepage</a>
-                <div>License: {this.makeLicense(currentWidget.license)}</div>
-                <div>Author: {currentWidget.author}</div>
-
+                <a href={currentWidget.url} target="_blank" rel="noopener noreferrer" className="btn btn-fill trailer-1">Download from Homepage</a>
+                <div className="trailer-1">
+                  <div>Popularity: {currentWidget.githubStars} GitHub Stars</div>
+                  <div>Author: {currentWidget.author}</div>
+                  <div>License: {this.makeLicense(currentWidget.license)}</div>
+                </div>
 
                 { categories }
-              </div>
-              <div className="column-16">
-                <h1>{currentWidget.name}</h1>
-                <p>{currentWidget.description}</p>
               </div>
               
             </main>
