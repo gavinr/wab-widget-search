@@ -1,5 +1,4 @@
 [
-  
   {
     "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/BombThreat",
     "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/BombThreat/manifest.json",
@@ -301,11 +300,6 @@
     "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeSearch",
     "manifestUrl": "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeSearch/manifest.json"
   },
-
-
-
-
-
   {
     "url": "https://community.esri.com/docs/DOC-1731-enhanced-search-widget-version-211-080116",
     "mainfestUrl": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/widgets/eSearch/manifest.json",
@@ -365,5 +359,5 @@
     "url": "https://community.esri.com/docs/DOC-8592-layer-toggle-button-widget-version-22-01132017",
     "mainfestUrl": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/widgets/LayerToggleButton/manifest.json",
     "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/"
-  },
+  }
 ]
