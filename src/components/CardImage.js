@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class CardImage extends Component {
-  render() {
-    return (
-      <figure className="card-image-wrap">
-        <img className="card-image" src={this.props.image} alt="" />
-        <figcaption className="card-image-caption">
-          { this.props.caption }
-        </figcaption>
-      </figure>
-    )
-  }
+export default function CardImage({image, caption}) {
+  return (
+    <figure className="card-image-wrap">
+      <img className="card-image" src={image} alt="" />
+      <figcaption className="card-image-caption">
+        { caption }
+      </figcaption>
+    </figure>
+  )
 }
