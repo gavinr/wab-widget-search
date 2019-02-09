@@ -170,7 +170,8 @@
   },
   {
     "url": "https://github.com/softwhere/SaveSession-Widget",
-    "manifestUrl": "https://raw.githubusercontent.com/softwhere/SaveSession-Widget/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/softwhere/SaveSession-Widget/master/manifest.json",
+    "thumbnail": "https://github.com/softwhere/SaveSession-Widget/raw/master/help/SaveSessionPanel.png"
   },
   {
     "url": "https://github.com/gavinr/presentations",
