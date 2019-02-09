@@ -1,7 +1,7 @@
 # wab-widget-search
 A simple page to filter and find custom [Web AppBuilder](https://developers.arcgis.com/web-appbuilder/) widgets. 
 
-[![screenshot](https://i.imgur.com/sc9YTC2.png)](https://wab-widget-search.surge.sh/)
+[![screenshot](https://i.imgur.com/sc9YTC2.png)](https://web-appbuilder-widget-search.surge.sh/)
 
 ### To submit your widget to the list
 
