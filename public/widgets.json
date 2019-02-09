@@ -1,0 +1,363 @@
+[
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/BombThreat",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/BombThreat/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/CI_KR_Chart",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/CI_KR_Chart/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ERG",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/ERG/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ElevationProfileTable",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/ElevationProfileTable/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ImageDiscovery",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/ImageDiscovery/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/NetworkTrace",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/NetworkTrace/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/ServiceFeasibility",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/ServiceFeasibility/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/FilterEditor",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/FilterEditor/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
+    "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Bookmark",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Bookmark/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/GeoChat",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/GeoChat/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Qr2Go",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Qr2Go/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/FractalDimension",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/FractalDimension/manifest.json"
+  },
+  {
+    "url": "https://github.com/gavinr/wab-wikipedia-search",
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/wab-wikipedia-search/master/widgets/WikipediaSearch/manifest.json",
+    "preview": "https://gavinr.github.io/wab-wikipedia-search/",
+    "categories": ["Third-Party APIs"],
+    "thumbnail": "https://github.com/gavinr/wab-wikipedia-search/raw/master/doc/wab-wikipedia-search.gif"
+  },
+  {
+    "url": "https://github.com/timw1984/WebAppBuilder/tree/master/Location",
+    "manifestUrl": "https://raw.githubusercontent.com/timw1984/WebAppBuilder/master/Location/manifest.json"
+  },
+  {
+    "url": "https://github.com/magis-nc/esri-webappbuilder-widget-url",
+    "manifestUrl": "https://raw.githubusercontent.com/magis-nc/esri-webappbuilder-widget-url/master/manifest.json"
+  },
+  {
+    "url": "https://github.com/cmndrbensisko/LocalLayer",
+    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/LocalLayer/master/2D/LocalLayer/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/daFiter/localLayer_filter",
+    "manifestUrl": "https://raw.githubusercontent.com/daFiter/localLayer_filter/master/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/cmndrbensisko/AccessifizrWidget",
+    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/AccessifizrWidget/master/manifest.json",
+    "categories": ["Accessibility"]
+  },
+  {
+    "url": "https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",
+    "manifestUrl": "https://raw.githubusercontent.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json",
+    "categories": ["Drawing and Editing"]
+  },
+  {
+    "url": "https://github.com/mlewis22/WebAppBuilder/tree/master/Google%20Analytics/Widget/GoogleAnalytics",
+    "manifestUrl": "https://raw.githubusercontent.com/mlewis22/WebAppBuilder/master/Google%20Analytics/Widget/GoogleAnalytics/manifest.json"
+  },
+  {
+    "url": "https://github.com/LarryStout/AWAB-Print-Plus-Widget/tree/master/PrintPlus",
+    "manifestUrl": "https://raw.githubusercontent.com/LarryStout/AWAB-Print-Plus-Widget/master/PrintPlus/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/geoportal-server/tree/develop/components/wab/GeoportalSearch",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/geoportal-server/develop/components/wab/GeoportalSearch/manifest.json"
+  },
+  {
+    "url": "https://github.com/killpackb/SpiderDist",
+    "manifestUrl": "https://raw.githubusercontent.com/killpackb/SpiderDist/master/manifest.json"
+  },
+  {
+    "url": "https://github.com/USEPA/AddLayerFromWeb-widget-js/tree/master/AddLayerFromWeb",
+    "manifestUrl": "https://raw.githubusercontent.com/USEPA/AddLayerFromWeb-widget-js/master/AddLayerFromWeb/manifest.json"
+  },
+  {
+    "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Clustering",
+    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/Clustering/manifest.json"
+  },
+  {
+    "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/RandomPoints",
+    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/RandomPoints/manifest.json",
+    "thumbnail": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/RandomPoints/images/randompoints.gif"
+  },
+  {
+    "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/StatusMonitoring",
+    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/StatusMonitoring/manifest.json"
+  },
+  {
+    "url": "https://github.com/gisfromscratch/webapp-builder-demos/tree/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage",
+    "manifestUrl": "https://raw.githubusercontent.com/gisfromscratch/webapp-builder-demos/master/samples/Sample%20Widgets/WebAppWidgets/widgets/BubbleMessage/manifest.json"
+  },
+  {
+    "url": "https://github.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget",
+    "manifestUrl": "https://raw.githubusercontent.com/WestonSF/ArcGISWebAppBuilderLocateCoordinatesWidget/master/manifest.json",
+    "thumbnail": "https://i.imgur.com/zwYfa7w.png",
+    "preview": "https://ec2-52-64-20-102.ap-southeast-2.compute.amazonaws.com/apps/LocateCoordinatesWidget/"
+  },
+  {
+    "url": "https://github.com/URSpatial/WAB_AddShapefile",
+    "manifestUrl": "https://raw.githubusercontent.com/URSpatial/WAB_AddShapefile/master/AddShapefile/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/kevinsagis/EnhancedQuery/tree/master/eQuery/widgets/Enhanced%20Query",
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/EnhancedQuery/master/eQuery/widgets/Enhanced%20Query/manifest.json"
+  },
+  {
+    "url": "https://github.com/mdgio/WAB/tree/master/AddiMAPData",
+    "manifestUrl": "https://raw.githubusercontent.com/mdgio/WAB/master/AddiMAPData/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/cmndrbensisko/LayerListLite",
+    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/LayerListLite/master/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/jgrayson-apl/ISTimeSelect",
+    "manifestUrl": "https://raw.githubusercontent.com/jgrayson-apl/ISTimeSelect/master/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/markdeaton/closest-facility-wab-js",
+    "manifestUrl": "https://raw.githubusercontent.com/markdeaton/closest-facility-wab-js/master/manifest.json"
+  },
+  {
+    "url": "https://github.com/softwhere/AddLayer-Widget",
+    "manifestUrl": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/manifest.json",
+    "categories": ["Layers"]
+  },
+  {
+    "url": "https://github.com/softwhere/ChangeWebMap-Widget",
+    "manifestUrl": "https://raw.githubusercontent.com/softwhere/ChangeWebMap-Widget/master/manifest.json"
+  },
+  {
+    "url": "https://github.com/softwhere/SaveSession-Widget",
+    "manifestUrl": "https://raw.githubusercontent.com/softwhere/SaveSession-Widget/master/manifest.json",
+    "thumbnail": "https://github.com/softwhere/SaveSession-Widget/raw/master/help/SaveSessionPanel.png"
+  },
+  {
+    "url": "https://github.com/gavinr/presentations",
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json",
+    "thumbnail":"https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/images/park-whiz-widget.PNG",
+    "preview": "http://gavinr.github.io/presentations/web-app-builder-build-your-first-widget-2016/code/complete/demo/index.html",
+    "categories": ["Third-Party APIs"]
+  },
+  {
+    "url": "https://github.com/CanterburyRegionalCouncil/Trip-Splitter-Widget",
+    "manifestUrl": "https://raw.githubusercontent.com/CanterburyRegionalCouncil/Trip-Splitter-Widget/master/manifest.json"
+  },
+  {
+    "url": "https://github.com/EsriUK/wab-dijit-drilldown",
+    "manifestUrl": "https://raw.githubusercontent.com/EsriUK/wab-dijit-drilldown/master/Drilldown/manifest.json"
+  },
+  {
+    "url": "https://github.com/kevinsagis/Pictometry-for-WebApp-Builder",
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/Pictometry-for-WebApp-Builder/master/Pictometry/manifest.json",
+    "categories": ["Third-Party APIs"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISChangeDetection/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISClassification/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISCompare/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayOrder/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISDisplayParameters/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISExport/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageDate/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISImageSelector/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISLayers/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISProfile/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISRenderer/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/Esri/WAB-Image-Services-Widgets",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/WAB-Image-Services-Widgets/WABIS-2.0/imagery_widgets/ISScatterplot/manifest.json",
+    "categories": ["Image Services"]
+  },
+  {
+    "url": "https://github.com/kevinsagis/ScreenshotDemo/tree/master/ScreenshotWidget/widgets/Screenshot",
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/ScreenshotDemo/master/ScreenshotWidget/widgets/Screenshot/manifest.json"
+  },
+  {
+    "url": "https://github.com/gavinr/web-appbuilder-find-restaurants",
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/web-appbuilder-find-restaurants/master/FindRestaurants/manifest.json",
+    "preview": "https://gavinr.github.io/web-appbuilder-find-restaurants/",
+    "categories": ["Third-Party APIs"],
+    "thumbnail": "https://i.imgur.com/exnimvy.jpg"
+  },
+  {
+    "url": "https://github.com/kevinsagis/GoogleEarth/tree/master/widgets/Earth",
+    "manifestUrl": "https://raw.githubusercontent.com/kevinsagis/GoogleEarth/master/widgets/Earth/manifest.json",
+    "categories": ["Third-Party APIs"]
+  },
+  {
+    "url": "https://github.com/AdriSolid/WAB-Custom-Widgets/tree/master/barChartCedar",
+    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/barChartCedar/manifest.json",
+    "categories": ["Graphs and Charts"]
+  },
+  {
+    "url": "https://github.com/Esri/adopta/tree/master/Adopta",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/adopta/master/Adopta/manifest.json"
+  },
+  {
+    "url": "https://github.com/sagewall/DrawBufferWidget",
+    "manifestUrl": "https://raw.githubusercontent.com/sagewall/DrawBufferWidget/master/manifest.json",
+    "categories": ["Drawing and Editing"]
+  },
+  {
+    "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeDisplayProperties",
+    "manifestUrl": "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeDisplayProperties/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeIdentify",
+    "manifestUrl": "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeIdentify/manifest.json"
+  },
+  {
+    "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeSearch",
+    "manifestUrl": "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeSearch/manifest.json"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-1731-enhanced-search-widget-version-211-080116",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/widgets/eSearch/manifest.json",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-2888-enhanced-basemap-gallery-widget-23-02142017",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/eBasemapGallery/widgets/eBasemapGallery/manifest.json",
+    "thumbnail": "https://i.imgur.com/DFe8RkO.png",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/eBasemapGallery/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-3247-share-widget-version-201-042016",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.0/widgets/share/widgets/Share/manifest.json",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.0/widgets/share/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-3250-identify-widget-version-23-02172017",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.10/widgets/Identify/widgets/Identify/manifest.json?wab_dv=2.10",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.10/widgets/Identify/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-3342-elevation-profile-widget-version-23-02142017",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/ElevationProfile/widgets/ElevationProfile/manifest.json?wab_dv=2.8",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/ElevationProfile/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-6416-map-progress-indicator-widget-version-23-021417",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/MapProgress/widgets/MapProgress/manifest.json?wab_dv=2.8",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/MapProgress/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-6889-enhanced-bookmark-widget-version-23-21417",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.5/widgets/eBookmark/widgets/eBookmark/manifest.json?wab_dv=2.5",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.5/widgets/eBookmark/"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-7046-enhanced-locate-widget-version-23-2142017",
+    "manifestUrl": "https://gis.calhouncounty.org/wab/v2.9/widgets/elocate/widgets/eLocate/manifest.json",
+    "preview": "https://gis.calhouncounty.org/wab/v2.9/widgets/elocate/"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-7355-popup-panel-widget-version-211-020619",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.11/widgets/PopupPanel/widgets/PopupPanel/manifest.json",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.11/widgets/PopupPanel/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-7733-aloha-threat-zone-widget-version-23-021417",
+    "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.9/widgets/Aloha/widgets/AlohaThreatZone/manifest.json",
+    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/Aloha/index.html"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-8591-url-button-widget-version-23-02142017",
+    "manifestUrl": "https://gis.calhouncounty.org/wab/v2.5/widgets/UrlButton/widgets/UrlButton/manifest.json",
+    "thumbnail": "https://i.imgur.com/HqSByMF.png",
+    "preview": "https://gis.calhouncounty.org/wab/v2.5/widgets/UrlButton/"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-8592-layer-toggle-button-widget-version-22-01132017",
+    "manifestUrl": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/widgets/LayerToggleButton/manifest.json",
+    "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/",
+    "categories": ["Layers"]
+  }
+]
