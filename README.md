@@ -1,80 +1,19 @@
 # wab-widget-search
 A simple page to filter and find WAB widgets. 
 
-[Click here](https://gavinr.github.io/wab-widget-search/) for the search page.
+[Click here](https://wab-widget-search.surge.sh/) for the search page.
 
 ### To submit your widget to the list
-1. Upload the widget to Github (under your own repo or submit a PR to https://github.com/Esri/arcgis-webappbuilder-widgets-themes).
-2. Fork and update the file "src/app/widget-locations.js" in this repository, linking to the repository and manifest.json file you created in #1. Follow the same pattern of the file. (convert urls using https://rawgit.com)
-3. Submit a PR with your changes to the file widget-locations.js.
 
----
+2 easy ways!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Create a [new issue](https://github.com/gavinr/wab-widget-search/issues/new) in this repo, or
+2. Fork this repo, add your widget to [public/widgets.json](https://github.com/gavinr/wab-widget-search/blob/master/public/widgets.json)
 
-## Available Scripts
+### Development
 
-In the project directory, you can run:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can run a local version of the site for development by following these steps:
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Fork and clone this repository.
+2. In a terminal, `npm install`
+3. `npm start`
