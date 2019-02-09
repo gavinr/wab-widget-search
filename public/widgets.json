@@ -144,7 +144,8 @@
   },
   {
     "url": "https://github.com/mdgio/WAB/tree/master/AddiMAPData",
-    "manifestUrl": "https://raw.githubusercontent.com/mdgio/WAB/master/AddiMAPData/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/mdgio/WAB/master/AddiMAPData/manifest.json",
+    "categories": ["Layers"]
   },
   {
     "url": "https://github.com/cmndrbensisko/LayerListLite",
@@ -153,7 +154,8 @@
   },
   {
     "url": "https://github.com/jgrayson-apl/ISTimeSelect",
-    "manifestUrl": "https://raw.githubusercontent.com/jgrayson-apl/ISTimeSelect/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/jgrayson-apl/ISTimeSelect/master/manifest.json",
+    "categories": ["Image Services"]
   },
   {
     "url": "https://github.com/markdeaton/closest-facility-wab-js",
@@ -176,6 +178,8 @@
   {
     "url": "https://github.com/gavinr/presentations",
     "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json",
+    "thumbnail":"https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/images/park-whiz-widget.PNG",
+    "preview": "http://gavinr.github.io/presentations/web-app-builder-build-your-first-widget-2016/code/complete/demo/index.html",
     "categories": ["Third-Party APIs"]
   },
   {
