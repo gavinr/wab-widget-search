@@ -109,7 +109,8 @@
   {
     "url": "https://github.com/USEPA/AddLayerFromWeb-widget-js/tree/master/AddLayerFromWeb",
     "manifestUrl": "https://raw.githubusercontent.com/USEPA/AddLayerFromWeb-widget-js/master/AddLayerFromWeb/manifest.json",
-    "thumbnail": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/help/AddLayerWidget.png"
+    "thumbnail": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/help/AddLayerWidget.png",
+    "categories": ["Layers"]
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Clustering",
