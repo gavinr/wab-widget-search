@@ -108,7 +108,8 @@
   },
   {
     "url": "https://github.com/USEPA/AddLayerFromWeb-widget-js/tree/master/AddLayerFromWeb",
-    "manifestUrl": "https://raw.githubusercontent.com/USEPA/AddLayerFromWeb-widget-js/master/AddLayerFromWeb/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/USEPA/AddLayerFromWeb-widget-js/master/AddLayerFromWeb/manifest.json",
+    "thumbnail": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/help/AddLayerWidget.png"
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Clustering",
@@ -358,6 +359,7 @@
     "url": "https://community.esri.com/docs/DOC-8592-layer-toggle-button-widget-version-22-01132017",
     "manifestUrl": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/widgets/LayerToggleButton/manifest.json",
     "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/",
+    "thumbnail": "https://i.imgur.com/jfyVTuE.png",
     "categories": ["Layers"]
   }
 ]
