@@ -352,6 +352,7 @@
   {
     "url": "https://community.esri.com/docs/DOC-8592-layer-toggle-button-widget-version-22-01132017",
     "manifestUrl": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/widgets/LayerToggleButton/manifest.json",
-    "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/"
+    "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/",
+    "categories": ["Layers"]
   }
 ]
