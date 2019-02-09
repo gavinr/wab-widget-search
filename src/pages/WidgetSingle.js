@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import WidgetSingleSidebar from './WidgetSingleSidebar';
 
 export default class WidgetSingle extends Component {
 
@@ -9,18 +10,7 @@ export default class WidgetSingle extends Component {
     });
     return retLinks;
   }
-
-  makeLicense(data) {
-    if (data === 'http://www.apache.org/licenses/LICENSE-2.0') {
-      return (<a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank" rel="noopener noreferrer" >Apache 2.0</a>);
-    } else if (data === 'MIT' || data === 'MIT License') {
-      return (<a href="https://choosealicense.com/licenses/mit/" target="_blank" rel="noopener noreferrer" >Apache 2.0</a>);
-    } else if (data.startsWith('http://')) {
-      // return '<a href="' + data + '" target="_blank">' + data + '</a>';
-      return (<a href={data} target="_blank" rel="noopener noreferrer" >{data}</a>);
-    }
-    return data;
-  };
+  
   
   render() {
     
@@ -51,21 +41,8 @@ export default class WidgetSingle extends Component {
                 <p>{currentWidget.description}</p>
               </div>
               <div className="column-8">
-                {currentWidget.thumbnail ? <img src={currentWidget.thumbnail} alt="Widget thumbnail" /> : ''}
-                <a href={currentWidget.url} target="_blank" rel="noopener noreferrer" className="btn btn-fill trailer-1">Download from Homepage</a>
-                {currentWidget.preview !== '' && 
-                  <a href={currentWidget.preview} target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-fill trailer-1">Live Preview</a>
-                }
-                
-                <div className="trailer-1">
-                  <div>Popularity: {currentWidget.githubStars} GitHub Stars</div>
-                  <div>Author: {currentWidget.author}</div>
-                  <div>License: {this.makeLicense(currentWidget.license)}</div>
-                </div>
-
-                { categories }
+                <WidgetSingleSidebar currentWidget={currentWidget} categories={categories} />
               </div>
-              
             </main>
           </div>
         </div>
