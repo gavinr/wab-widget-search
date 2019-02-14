@@ -406,20 +406,5 @@
   {
     "url": "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-loc-georeferencingwidget",
     "manifestUrl": "https://raw.githubusercontent.com/DCGIS/esri-webappbuilder-widget-georeferencing/master/widgets/GeoRefPlats/manifest.json"
-  },
-  {
-    "url": "https://community.esri.com/docs/DOC-11392-heat-map-widget-10-11022018",
-    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/HeatMapES5/manifest.json",
-    "preview": "https://adrisolid.github.io/heatMapWidget/",
-    "thumbnail": "https://i.imgur.com/qj1TjWF.png",
-    "categories": [
-      "Layers"
-    ]
-  },
-  {
-    "url": "https://community.esri.com/docs/DOC-12050-select-by-attributes-widget-v10-07202018",
-    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/selectByAttributes/manifest.json",
-    "preview": "https://adrisolid.github.io/SelectByAttributesWidget/",
-    "thumbnail": "https://i.imgur.com/6IiHhba.png"
   }
 ]
