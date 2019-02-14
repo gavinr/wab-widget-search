@@ -25,6 +25,11 @@
     "categories": ["Industry-Specific Solutions"]
   },
   {
+    "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/GridOverlay",
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/GridOverlay/manifest.json",
+    "categories": ["Industry-Specific Solutions"]
+  },
+  {
     "url": "https://github.com/Esri/solutions-webappbuilder-widgets/tree/master/NetworkTrace",
     "manifestUrl": "https://raw.githubusercontent.com/Esri/solutions-webappbuilder-widgets/master/NetworkTrace/manifest.json",
     "categories": ["Industry-Specific Solutions"]
@@ -185,7 +190,7 @@
   {
     "url": "https://github.com/gavinr/presentations",
     "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json",
-    "thumbnail":"https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/images/park-whiz-widget.PNG",
+    "thumbnail":"https://i.imgur.com/ABKEHSd.png",
     "preview": "http://gavinr.github.io/presentations/web-app-builder-build-your-first-widget-2016/code/complete/demo/index.html",
     "categories": ["Third-Party APIs"]
   },
