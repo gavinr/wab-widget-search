@@ -290,6 +290,13 @@
     "categories": ["Graphs and Charts"]
   },
   {
+    "url": "https://community.esri.com/docs/DOC-11551-chartjs-widget-v10-03252018",
+    "manifestUrl": "https://adrisolid.github.io/ChartJSWidget/widgets/chartJS/manifest.json?wab_dv=2.7",
+    "thumbnail": "https://i.imgur.com/JybXbvP.png",
+    "preview": "https://adrisolid.github.io/ChartJSWidget/",
+    "categories": ["Graphs and Charts"]
+  },
+  {
     "url": "https://github.com/Esri/adopta/tree/master/Adopta",
     "manifestUrl": "https://raw.githubusercontent.com/Esri/adopta/master/Adopta/manifest.json",
     "preview": "http://ec2-54-218-245-154.us-west-2.compute.amazonaws.com/AdoptaCatchBasin/",
@@ -381,5 +388,19 @@
     "preview": "https://gis.calhouncounty.org/wab/v2.8/widgets/LayerToggleButton/",
     "thumbnail": "https://i.imgur.com/jfyVTuE.png",
     "categories": ["Layers"]
+  },
+  {
+    "url": "https://community.esri.com/people/bpelchat/blog/2016/04/25/nexrad-widget",
+    "manifestUrl": "https://nhvieww.nh.gov/desc/nexrad/widgets/ISURadar/manifest.json",
+    "preview": "https://nhvieww.nh.gov/desc/nexrad/",
+    "categories": ["Third-Party APIs"]
+  },
+  {
+    "url": "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-loc-reportingwidget",
+    "manifestUrl": "https://raw.githubusercontent.com/DCGIS/esri-webappbuilder-widget-reporting/master/widgets/Reporting/manifest.json"
+  },
+  {
+    "url": "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-loc-georeferencingwidget",
+    "manifestUrl": "https://raw.githubusercontent.com/DCGIS/esri-webappbuilder-widget-georeferencing/master/widgets/GeoRefPlats/manifest.json"
   }
 ]
