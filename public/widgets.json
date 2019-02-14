@@ -122,7 +122,8 @@
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Clustering",
-    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/Clustering/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/EsriJapan/arcgis-webappbuilder-widgets-themes/master/widgets/Clustering/manifest.json",
+    "thumbnail": "https://i.imgur.com/6oaye8D.png"
   },
   {
     "url": "https://github.com/EsriJapan/arcgis-webappbuilder-widgets-themes/tree/master/widgets/RandomPoints",
