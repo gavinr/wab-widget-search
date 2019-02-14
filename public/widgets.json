@@ -341,7 +341,8 @@
   {
     "url": "https://community.esri.com/docs/DOC-3250-identify-widget-version-23-02172017",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.10/widgets/Identify/widgets/Identify/manifest.json?wab_dv=2.10",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.10/widgets/Identify/index.html"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.10/widgets/Identify/index.html",
+    "thumbnail": "https://user-images.githubusercontent.com/1216460/52790745-f8a88a00-302c-11e9-9a32-ad3ca15d82c6.jpg"
   },
   {
     "url": "https://community.esri.com/docs/DOC-3342-elevation-profile-widget-version-23-02142017",
@@ -352,7 +353,8 @@
   {
     "url": "https://community.esri.com/docs/DOC-6416-map-progress-indicator-widget-version-23-021417",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/MapProgress/widgets/MapProgress/manifest.json?wab_dv=2.8",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/MapProgress/index.html"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/MapProgress/index.html",
+    "thumbnail": "https://i.imgur.com/I3omeg8.png"
   },
   {
     "url": "https://community.esri.com/docs/DOC-6889-enhanced-bookmark-widget-version-23-21417",
@@ -369,12 +371,14 @@
   {
     "url": "https://community.esri.com/docs/DOC-7355-popup-panel-widget-version-211-020619",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.11/widgets/PopupPanel/widgets/PopupPanel/manifest.json",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.11/widgets/PopupPanel/index.html"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.11/widgets/PopupPanel/index.html",
+    "thumbnail": "https://i.imgur.com/PEfdA6g.png"
   },
   {
     "url": "https://community.esri.com/docs/DOC-7733-aloha-threat-zone-widget-version-23-021417",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.9/widgets/Aloha/widgets/AlohaThreatZone/manifest.json",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/Aloha/index.html"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/Aloha/index.html",
+    "thumbnail": "https://user-images.githubusercontent.com/1216460/52792275-9782b580-3030-11e9-9b30-cfcbb89af1a6.jpg"
   },
   {
     "url": "https://community.esri.com/docs/DOC-8591-url-button-widget-version-23-02142017",
@@ -402,5 +406,20 @@
   {
     "url": "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-loc-georeferencingwidget",
     "manifestUrl": "https://raw.githubusercontent.com/DCGIS/esri-webappbuilder-widget-georeferencing/master/widgets/GeoRefPlats/manifest.json"
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-11392-heat-map-widget-10-11022018",
+    "manifestUrl": "https://github.com/AdriSolid/WAB-Custom-Widgets/blob/master/HeatMapES5/manifest.json",
+    "preview": "https://adrisolid.github.io/heatMapWidget/",
+    "thumbnail": "https://i.imgur.com/qj1TjWF.png",
+    "categories": [
+      "Layers"
+    ]
+  },
+  {
+    "url": "https://community.esri.com/docs/DOC-12050-select-by-attributes-widget-v10-07202018",
+    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/selectByAttributes/manifest.json",
+    "preview": "https://adrisolid.github.io/SelectByAttributesWidget/",
+    "thumbnail": "https://i.imgur.com/6IiHhba.png"
   }
 ]
