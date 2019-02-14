@@ -55,7 +55,8 @@ class Home extends Component {
             <div className="block-group block-group-3-up tablet-block-group-2-up phone-block-group-1-up">
               {this.props.widgetsJson.filter((c) => {
                 return (c.name.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1 || 
-                  c.description.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1) && 
+                  c.description.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1 || 
+                  c.author.toLowerCase().indexOf(this.state.searchValue.toLowerCase()) > -1) && 
 
                   // If cateogry is not blank, filter also on category:
                   (this.state.category === '' || c.categories.indexOf(this.state.category) > -1) ;
