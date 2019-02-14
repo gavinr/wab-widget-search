@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "surge build --domain web-appbuilder-widget-search.surge.sh"
+    "deploy": "surge build --domain https://web-appbuilder-widget-search.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
