@@ -1,7 +1,7 @@
 import React from 'react';
 import CardImage from './CardImage';
 
-function Card({thumbnail, title, description, link}) {
+function Card({thumbnail, title, description, link, author}) {
   let image = '';
   if(thumbnail) {
     image = <CardImage image={thumbnail}></CardImage>;
@@ -11,7 +11,9 @@ function Card({thumbnail, title, description, link}) {
       {image}
       <div className="card-content">
         <h4>{title}</h4>
-        <p className="font-size--1 card-last">{description}</p>
+        <p className="card-last">{description}</p>
+
+        <p>Author: {author}</p>
         <a href={link} className="btn btn-clear btn-fill leader-1">More Info</a>
       </div>
     </div>
