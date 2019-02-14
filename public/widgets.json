@@ -409,7 +409,7 @@
   },
   {
     "url": "https://community.esri.com/docs/DOC-11392-heat-map-widget-10-11022018",
-    "manifestUrl": "https://github.com/AdriSolid/WAB-Custom-Widgets/blob/master/HeatMapES5/manifest.json",
+    "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/HeatMapES5/manifest.json",
     "preview": "https://adrisolid.github.io/heatMapWidget/",
     "thumbnail": "https://i.imgur.com/qj1TjWF.png",
     "categories": [
