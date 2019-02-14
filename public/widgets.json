@@ -338,6 +338,7 @@
   {
     "url": "https://community.esri.com/docs/DOC-3342-elevation-profile-widget-version-23-02142017",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.8/widgets/ElevationProfile/widgets/ElevationProfile/manifest.json?wab_dv=2.8",
+    "thumbnail": "https://i.imgur.com/Q2ohJmJ.png",
     "preview": "https://gis.calhouncounty.org/WAB/V2.8/widgets/ElevationProfile/index.html"
   },
   {
@@ -354,7 +355,8 @@
   {
     "url": "https://community.esri.com/docs/DOC-7046-enhanced-locate-widget-version-23-2142017",
     "manifestUrl": "https://gis.calhouncounty.org/wab/v2.9/widgets/elocate/widgets/eLocate/manifest.json",
-    "preview": "https://gis.calhouncounty.org/wab/v2.9/widgets/elocate/"
+    "preview": "https://gis.calhouncounty.org/wab/v2.9/widgets/elocate/",
+    "thumbnail": "https://i.imgur.com/akLQX5z.png"
   },
   {
     "url": "https://community.esri.com/docs/DOC-7355-popup-panel-widget-version-211-020619",
