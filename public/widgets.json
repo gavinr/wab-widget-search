@@ -49,11 +49,13 @@
   },
   {
     "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/Qr2Go",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Qr2Go/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/Qr2Go/manifest.json",
+    "thumbnail": "https://i.imgur.com/RZFZLV1.png"
   },
   {
     "url": "https://github.com/Esri/arcgis-webappbuilder-widgets-themes/tree/master/widgets/FractalDimension",
-    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/FractalDimension/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/Esri/arcgis-webappbuilder-widgets-themes/master/widgets/FractalDimension/manifest.json",
+    "thumbnail": "https://i.imgur.com/fDtv7G8.png"
   },
   {
     "url": "https://github.com/gavinr/wab-wikipedia-search",
@@ -88,7 +90,9 @@
   {
     "url": "https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",
     "manifestUrl": "https://raw.githubusercontent.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json",
-    "categories": ["Drawing and Editing"]
+    "categories": ["Drawing and Editing"],
+    "preview": "http://apps.magis.nc/maps/wab-widgets/?extent=17918900%2C-2706198%2C19092972%2C-2154016%2C102100",
+    "thumbnail": "https://i.imgur.com/Dthu9vo.png"
   },
   {
     "url": "https://github.com/mlewis22/WebAppBuilder/tree/master/Google%20Analytics/Widget/GoogleAnalytics",
@@ -109,7 +113,6 @@
   {
     "url": "https://github.com/USEPA/AddLayerFromWeb-widget-js/tree/master/AddLayerFromWeb",
     "manifestUrl": "https://raw.githubusercontent.com/USEPA/AddLayerFromWeb-widget-js/master/AddLayerFromWeb/manifest.json",
-    "thumbnail": "https://raw.githubusercontent.com/softwhere/AddLayer-Widget/master/help/AddLayerWidget.png",
     "categories": ["Layers"]
   },
   {
@@ -161,7 +164,8 @@
   },
   {
     "url": "https://github.com/markdeaton/closest-facility-wab-js",
-    "manifestUrl": "https://raw.githubusercontent.com/markdeaton/closest-facility-wab-js/master/manifest.json"
+    "manifestUrl": "https://raw.githubusercontent.com/markdeaton/closest-facility-wab-js/master/manifest.json",
+    "thumbnail": "https://i.imgur.com/B7wHJO6.png"
   },
   {
     "url": "https://github.com/softwhere/AddLayer-Widget",
@@ -289,7 +293,8 @@
   {
     "url": "https://github.com/sagewall/DrawBufferWidget",
     "manifestUrl": "https://raw.githubusercontent.com/sagewall/DrawBufferWidget/master/manifest.json",
-    "categories": ["Drawing and Editing"]
+    "categories": ["Drawing and Editing"],
+    "thumbnail": "https://i.imgur.com/IgqUzja.png"
   },
   {
     "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeDisplayProperties",
@@ -306,7 +311,8 @@
   {
     "url": "https://community.esri.com/docs/DOC-1731-enhanced-search-widget-version-211-080116",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/widgets/eSearch/manifest.json",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.9/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0",
+    "thumbnail": "https://i.imgur.com/G6wUtww.png"
   },
   {
     "url": "https://community.esri.com/docs/DOC-2888-enhanced-basemap-gallery-widget-23-02142017",
@@ -337,7 +343,8 @@
   {
     "url": "https://community.esri.com/docs/DOC-6889-enhanced-bookmark-widget-version-23-21417",
     "manifestUrl": "https://gis.calhouncounty.org/WAB/V2.5/widgets/eBookmark/widgets/eBookmark/manifest.json?wab_dv=2.5",
-    "preview": "https://gis.calhouncounty.org/WAB/V2.5/widgets/eBookmark/"
+    "preview": "https://gis.calhouncounty.org/WAB/V2.5/widgets/eBookmark/",
+    "thumbnail": "https://i.imgur.com/XoGu5HA.png"
   },
   {
     "url": "https://community.esri.com/docs/DOC-7046-enhanced-locate-widget-version-23-2142017",
