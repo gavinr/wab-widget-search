@@ -426,6 +426,7 @@
     "url": "http://server2.fmvserver.net/wab_fmv11/",
     "manifestUrl": "http://server2.fmvserver.net/wab_fmv11/widgets/FMV/manifest.json",
     "preview": "http://server2.fmvserver.net/wab_fmv11/",
-    "thumbnail": "http://server2.fmvserver.net/wab_fmv11/FMV_preview.png"
+    "thumbnail": "http://server2.fmvserver.net/wab_fmv11/FMV_preview.png",
+    "categories": ["Industry-Specific Solutions"]
   }
 ]
