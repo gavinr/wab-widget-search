@@ -421,5 +421,12 @@
     "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/selectByAttributes/manifest.json",
     "preview": "https://adrisolid.github.io/SelectByAttributesWidget/",
     "thumbnail": "https://i.imgur.com/6IiHhba.png"
+  },
+  {
+    "url": "http://fmvserver.com/",
+    "manifestUrl": "http://server2.fmvserver.net/wab_fmv11/widgets/FMV/manifest.json",
+    "preview": "http://server2.fmvserver.net/wab_fmv11/",
+    "thumbnail": "http://server2.fmvserver.net/wab_fmv11/FMV_preview.png",
+    "categories": ["Industry-Specific Solutions"]
   }
 ]
