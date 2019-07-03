@@ -70,6 +70,13 @@
     "thumbnail": "https://github.com/gavinr/wab-wikipedia-search/raw/master/doc/wab-wikipedia-search.gif"
   },
   {
+    "url": "https://github.com/gavinr/web-appbuilder-bikeshare",
+    "manifestUrl": "https://raw.githubusercontent.com/gavinr/web-appbuilder-bikeshare/master/Bikeshare/manifest.json",
+    "preview": "https://gavinr.github.io/web-appbuilder-bikeshare/",
+    "categories": ["Third-Party APIs"],
+    "thumbnail": "https://repository-images.githubusercontent.com/194679597/8a92e700-9c0a-11e9-9596-7047be2a7281"
+  },
+  {
     "url": "https://github.com/timw1984/WebAppBuilder/tree/master/Location",
     "manifestUrl": "https://raw.githubusercontent.com/timw1984/WebAppBuilder/master/Location/manifest.json"
   },
