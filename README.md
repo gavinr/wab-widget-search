@@ -49,3 +49,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Fork and clone this repository.
 2. In a terminal, `npm install`
 3. `npm start`
+
+
+### Links
+
+- [Web AppBuilder Widget Search on ArcGIS Online](https://www.arcgis.com/home/item.html?id=961cd43b032d4239b83aba605ac6553c)
