@@ -95,11 +95,6 @@
     "categories": ["Layers"]
   },
   {
-    "url": "https://github.com/cmndrbensisko/AccessifizrWidget",
-    "manifestUrl": "https://raw.githubusercontent.com/cmndrbensisko/AccessifizrWidget/master/manifest.json",
-    "categories": ["Accessibility"]
-  },
-  {
     "url": "https://github.com/magis-nc/esri-webappbuilder-widget-eDraw",
     "manifestUrl": "https://raw.githubusercontent.com/magis-nc/esri-webappbuilder-widget-eDraw/master/manifest.json",
     "categories": ["Drawing and Editing"],
@@ -198,7 +193,7 @@
   {
     "url": "https://github.com/gavinr/presentations",
     "manifestUrl": "https://raw.githubusercontent.com/gavinr/presentations/master/src/web-app-builder-build-your-first-widget-2016/code/complete/widgets/ParkWhizWidget/manifest.json",
-    "thumbnail":"https://i.imgur.com/ABKEHSd.png",
+    "thumbnail": "https://i.imgur.com/ABKEHSd.png",
     "preview": "http://gavinr.github.io/presentations/web-app-builder-build-your-first-widget-2016/code/complete/demo/index.html",
     "categories": ["Third-Party APIs"]
   },
@@ -311,12 +306,6 @@
     "categories": ["Industry-Specific Solutions"]
   },
   {
-    "url": "https://github.com/sagewall/DrawBufferWidget",
-    "manifestUrl": "https://raw.githubusercontent.com/sagewall/DrawBufferWidget/master/manifest.json",
-    "categories": ["Drawing and Editing"],
-    "thumbnail": "https://i.imgur.com/IgqUzja.png"
-  },
-  {
     "url": "https://github.com/Esri/maritimechartservice-sample-viewer/tree/master/src/widgets/MaritimeDisplayProperties",
     "manifestUrl": "https://cdn.jsdelivr.net/gh/Esri/maritimechartservice-sample-viewer@master/src/widgets/MaritimeDisplayProperties/manifest.json"
   },
@@ -414,21 +403,12 @@
     "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/HeatMapES5/manifest.json",
     "preview": "https://adrisolid.github.io/heatMapWidget/",
     "thumbnail": "https://i.imgur.com/qj1TjWF.png",
-    "categories": [
-      "Layers"
-    ]
+    "categories": ["Layers"]
   },
   {
     "url": "https://community.esri.com/docs/DOC-12050-select-by-attributes-widget-v10-07202018",
     "manifestUrl": "https://raw.githubusercontent.com/AdriSolid/WAB-Custom-Widgets/master/selectByAttributes/manifest.json",
     "preview": "https://adrisolid.github.io/SelectByAttributesWidget/",
     "thumbnail": "https://i.imgur.com/6IiHhba.png"
-  },
-  {
-    "url": "http://fmvserver.com/",
-    "manifestUrl": "http://server2.fmvserver.net/wab_fmv11/widgets/FMV/manifest.json",
-    "preview": "http://server2.fmvserver.net/wab_fmv11/",
-    "thumbnail": "http://server2.fmvserver.net/wab_fmv11/FMV_preview.png",
-    "categories": ["Industry-Specific Solutions"]
   }
 ]
